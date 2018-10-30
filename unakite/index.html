@@ -3,11 +3,40 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="help.css">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #ddd;
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  background-color: lightgray;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 70%; /* Full width */
+}
+
+}</style>
+
 </head>
-<div >
-</div>
-<body>
 <div class='container'>
+  <div class="topnav">
+    <a class="active">UNAKITE  </a>
+  </div>
+<body>
+
   <div class="sidenav">
     <a href="#Overview">Overview</a>
     <a href="#Publications">Publications</a>
@@ -16,12 +45,13 @@
     <a href="#Options">Options</a>
     <a href="#Criteria">Criteria</a>
     <a href="#Snippets">Snippets</a>
-    <a href="#CT">Collections</a>
     <a href="#FAQ">FAQ</a>
   </div>
 
   <div class="main">
+
     <div id='Overview'>
+      <br></br>
       <h2>Overview </h2>
       The UNAKITE Chrome extension is designed to help programmers organize information forgaged from the web.
       It helps programmers collect information from the web and organize it into a comparison table,
@@ -36,7 +66,9 @@
       <p>Team members: <a href="http://lxieyang.github.io/ " target="_blank">Michael Xieyang Liu</a>, Jane Hsieh, <a href="https://cs.oberlin.edu/~ctaylor/ "target="_blank">Cynthia Taylor</a>, <a href="http://www.cs.cmu.edu/~bam/" target="_blank">Brad Myers</a>, <a href="http://kittur.org/ "target="_blank">Niki Kittur</a></p>
 
     </div>
+
     <div id='Publications'>
+      <br></br>
       <h2>Publications </h2>
       <div>
       <p>
@@ -49,7 +81,9 @@
       </p>
       </div>
     </div>
+
     <div id='Installation'>
+      <br></br>
       <h2>Installation </h2>
       <p>
       To install the extension, first log in to your Chrome <i>Browser</i> (note that this is not just logging in to G Suite) with an account that can access the Chrome Web Store.
@@ -58,7 +92,9 @@
       Next, use on the email link you received to find and install the extension on the Chrome Web Store.
       </p>
     </div>
+
     <div id='Tasks'>
+      <br></br>
       <h2>Tasks </h2>
       <h3> What is a Task?</h3>
       As the name suggests, a task can be anything from "How do I resolve a linker command failed with exit code 1 error?" to "How do I undo commits in Git?" to "What resturants are available for dinner?"
@@ -96,7 +132,9 @@
       <p>From the extension popup you can use the select dropdown to navigate to another task. </p>
       The <b>All Tasks</b> view on the KAP mainpage also allows switching to another task when you select a particular task card.
     </div>
+
     <div id='Options'>
+      <br></br>
       <h2>Options </h2>
       <h3> What is an Option?</h3>
       Options are the various way that a task or problem may be completed or solved. Options may be created, deleted, starred, or marked as used.
@@ -135,14 +173,18 @@
       <p>An option may also be marked as used in the comparison table.</p>
       <img src="Use an option.png" alt="Use an option" style="width:100%">
     </div>
+
     <div id='Criteria'>
+      <br></br>
       <h2>Criteria </h2>
       <h3>What is an Criterion?</h3>
       Criteria are characteristics or of an option or potential situations where it would become useful. Often they measure the usefulness of certain option(s).
       <h3>Edit, Add, Delete, or Star Criteria</h3>
       Criteria can be edited, added, deleted, and starred in the same ways as options, but they <i>cannot</i> be marked as used.
     </div>
+
     <div id='Snippets'>
+      <br></br>
       <h2>Snippets and Rating</h2>
       <h3>What is a Snippet?</h3>
       Snippets are chunks of information or code snippets from the web which are relevant to the current task.
@@ -154,12 +196,19 @@
       <img src="dragSelect.gif" alt="Drag Selection" style="width:100%">
       Notice that each Stack Overflow post also receives its own "snippet button". Clicking this button will save the post as an <i>uncategorized</i> snippet.
     </div>
+    <br></br>
+
     <div id='FAQ'>
+      <br></br>
       <h2>FAQ</h2>
       <h3>What information does the extension track?</h3>
       If you the user is logged in and actively working on a task, UNAKITE will track visited web pages and search queries, in addition to any user inputs into UNAKITE (options, criteria, snippets, and notes).
       Note that you can stop the extension from tracking of all web pages under <i>Settings</i>.
     </div>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
   </div>
 </div>
 </body>

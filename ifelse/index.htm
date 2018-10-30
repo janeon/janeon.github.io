@@ -3,6 +3,10 @@
 
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>if's vs else if's</title>
+  <link href="./multiple if statements_files/css" rel="stylesheet">
+  <link href="./multiple if statements_files/css(1)" rel="stylesheet">
+  <link href="./multiple if statements_files/font-awesome.min.css" rel="stylesheet">
   <style id="react-tooltip">
     .__react_component_tooltip {
       border-radius: 3px;
@@ -392,7 +396,7 @@
       margin-top: -4px
     }
 
-    .__react_component_tooltip.place-right {
+    /* .__react_component_tooltip.place-right { */
       margin-left: 10px
     }
 
@@ -418,7 +422,6 @@
       text-align: center
     }
   </style>
-
   <style type="text/css">
     svg:not(:root).svg-inline--fa {
       overflow: visible;
@@ -874,11 +877,6 @@
       width: auto;
     }
   </style>
-  <link href="./multiple if statements_files/css" rel="stylesheet">
-  <link href="./multiple if statements_files/css(1)" rel="stylesheet">
-  <link href="./multiple if statements_files/font-awesome.min.css" rel="stylesheet">
-
-  <title>if's vs else if's</title>
   <style type="text/css">
     .NavigationItems__NavigationItems__2nD9v {
       margin: 0;
@@ -1955,22 +1953,16 @@
     .TaskStatusView__TaskStatusViewWrapper__314fP {
       display: -ms-flexbox;
       display: flex;
-      -ms-flex-align: center;
-      align-items: center;
     }
 
     .TaskStatusView__TaskStatusViewLeft__1wmzg {
       display: -ms-flexbox;
       display: flex;
-      -ms-flex-align: center;
-      align-items: center;
     }
 
     .TaskStatusView__Title___w0Ge {
       display: -ms-flexbox;
       display: flex;
-      -ms-flex-align: center;
-      align-items: center;
     }
 
     .TaskStatusView__Label__3JwLi {
@@ -1992,7 +1984,7 @@
       padding-top: 2px;
       padding-bottom: 2px;
 
-      max-width: 300px;
+      /* max-width: 300px; */
 
       border: 1px solid rgba(34, 36, 38, .15);
       color: rgba(0, 0, 0, .87);
@@ -4725,14 +4717,14 @@
     }
 
 
-    .TableView__AttitudeSwitchContainer__Rd270 {
+    .TableView__Attitudeswitch statementsContainer__Rd270 {
       opacity: 1 !important;
       background-color: white !important;
       pointer-events: auto !important;
     }
 
 
-    .TableView__AttitudeSwitcher__TgaT1 {
+    .TableView__Attitudeswitch statementser__TgaT1 {
       cursor: pointer;
       font-size: 1.8rem;
       width: 40px;
@@ -4755,7 +4747,7 @@
       opacity: 1 !important;
     }
 
-    .TableView__AttitudeSwitcher__TgaT1:hover {
+    .TableView__Attitudeswitch statementser__TgaT1:hover {
       -webkit-filter: grayscale(0%);
       filter: grayscale(0%);
       opacity: 1;
@@ -5637,7 +5629,7 @@
       font-size: 1.15rem;
     }
 
-    .CurrentTaskPage__Switcher__2xxlA {
+    .CurrentTaskPage__switch statementser__2xxlA {
       display: -ms-flexbox;
       display: flex;
       -ms-flex-pack: end;
@@ -5647,7 +5639,7 @@
       margin-right: 20px;
     }
 
-    .CurrentTaskPage__Switcher__2xxlA button {
+    .CurrentTaskPage__switch statementser__2xxlA button {
       background-color: transparent;
       border: 1px solid lightgray;
       color: inherit;
@@ -5666,28 +5658,28 @@
       transition: all 0.1s ease-in;
     }
 
-    .CurrentTaskPage__Switcher__2xxlA button:focus {
+    .CurrentTaskPage__switch statementser__2xxlA button:focus {
       outline: none;
     }
 
-    .CurrentTaskPage__Switcher__2xxlA button:first-child {
+    .CurrentTaskPage__switch statementser__2xxlA button:first-child {
       border-top-left-radius: 5px;
       border-bottom-left-radius: 5px;
     }
 
-    .CurrentTaskPage__Switcher__2xxlA button:last-child {
+    .CurrentTaskPage__switch statementser__2xxlA button:last-child {
       border-top-right-radius: 5px;
       border-bottom-right-radius: 5px;
     }
 
-    .CurrentTaskPage__Switcher__2xxlA button.CurrentTaskPage__Active__2q2At {
+    .CurrentTaskPage__switch statementser__2xxlA button.CurrentTaskPage__Active__2q2At {
       outline: none;
       background-color: #5cb85c;
       color: white;
       border: 1px solid #4CAF50;
     }
 
-    .CurrentTaskPage__Switcher__2xxlA button:hover {
+    .CurrentTaskPage__switch statementser__2xxlA button:hover {
       outline: none;
       opacity: 0.7;
     }
@@ -5697,8 +5689,13 @@
       display: flex;
       -ms-flex-flow: column;
       flex-flow: column;
-      -ms-flex-align: center;
       align-items: center;
+    }
+
+    .CurrentTaskPage__Content {
+
+      max-width: 60%;
+      font-size: 15px;
     }
 
     .CurrentTaskPage__SpecificTaskNameContainer__2Mdbd {
@@ -5786,27 +5783,42 @@
     <div style="">
       <main class="Layout__Content__1-u5l">
         <div class="CurrentTaskPage__CurrentTaskContainer__1QJoO">
-          <div style="display: flex; justify-content: space-between; align-items: center;">
+          <div style="display: flex; justify-content: space-between;">
             <div></div>
           </div>
           <div class="CurrentTaskPage__Content__38jp2">
+
+            <hr></hr>
             <div class="TaskStatusView__TaskStatusView__EJLdg">
               <div class="TaskStatusView__TaskStatusViewWrapper__314fP">
                 <div class="TaskStatusView__TaskStatusViewLeft__1wmzg">
+
                   <div class="TaskStatusView__Title___w0Ge">
-                    <div class="TaskStatusView__Label__3JwLi"><svg aria-hidden="true" data-prefix="fas" data-icon="briefcase" class="svg-inline--fa fa-briefcase fa-w-16 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M320 288h192v144c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48V288h192v20c0 6.627 5.373 12 12 12h104c6.627 0 12-5.373 12-12v-20zm192-112v80H0v-80c0-26.51 21.49-48 48-48h80V80c0-26.51 21.49-48 48-48h160c26.51 0 48 21.49 48 48v48h80c26.51 0 48 21.49 48 48zM320 96H192v32h128V96z"></path></svg>                      Task Name:</div>
+                    <div class="TaskStatusView__Label__3JwLi"><svg aria-hidden="true" data-prefix="fas" data-icon="briefcase" class="svg-inline--fa fa-briefcase fa-w-16 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M320 288h192v144c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48V288h192v20c0 6.627 5.373 12 12 12h104c6.627 0 12-5.373 12-12v-20zm192-112v80H0v-80c0-26.51 21.49-48 48-48h80V80c0-26.51 21.49-48 48-48h160c26.51 0 48 21.49 48 48v48h80c26.51 0 48 21.49 48 48zM320 96H192v32h128V96z"></path></svg>
+                      Task Name:</div>
                   </div>
                   <div class="TaskStatusView__TaskNameContainer__DxQcs ">
                     <div title="Click to edit" class="TaskStatusView__TaskName__21p-j" contenteditable="false">is it more efficient to use multiple if statements or one with lots of else ifs after it?</div>
                   </div>
+
                 </div>
+
             </div>
+
           </div>
+
+          <div class="CurrentTaskPage__Content__38jp2">
+            <div class="CurrentTaskPage__Content">
+            This question considers the efficiency of using "multiple if" versus "using one if followed by else statement(s)" when comparing the truth values of multiple statements or variable
+          </div></div>
+          <hr></hr>
+
+
           <div class="TableView__Section__1b6QV">
             <div class="TableView__TableView__M-aV7">
               <div class="TableView__Header__1XY-z">
                 <div class="TableView__HeaderNameContainer__3HWFo">
-                  <div class="TableView__HeaderName__3VyOn"><span>Comparison Table</span></div>
+                  <!-- <div class="TableView__HeaderName__3VyOn"><span>Comparison Table</span></div> -->
                 </div>
               </div>
                   <div class="TableView__Content__2AEwR">
@@ -5814,26 +5826,22 @@
                       <table class="TableView__ComparisonTable__WWsmL">
                         <thead>
                           <tr>
-
                             <td class="TableView__AddButtons__mEmSh ">
-
-                              <div class="TableView__AddRequirementButtonContainer__3bUgd" style="cursor: pointer;" onclick="window.open('https://docs.google.com/forms/d/1YCBRRyCyt6dGgN74dD18I1OJ3szntC59TTmpcI3Lhe8/edit')"><a data-tip="true" data-for="addRequirement" currentitem="false"><svg aria-hidden="true" data-prefix="fas" data-icon="plus-circle" class="svg-inline--fa fa-plus-circle fa-w-16 TableView__AddButton__tiJnC TableView__AddRequirementButton__2ZF2X" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm144 276c0 6.6-5.4 12-12 12h-92v92c0 6.6-5.4 12-12 12h-56c-6.6 0-12-5.4-12-12v-92h-92c-6.6 0-12-5.4-12-12v-56c0-6.6 5.4-12 12-12h92v-92c0-6.6 5.4-12 12-12h56c6.6 0 12 5.4 12 12v92h92c6.6 0 12 5.4 12 12v56z"></path></svg></a>
-
-                    </div>
+                              <!-- <div class="TableView__AddRequirementButtonContainer__3bUgd" style="cursor: pointer;" ><a data-tip="true" data-for="addRequirement" currentitem="false"><svg aria-hidden="true" data-prefix="fas" data-icon="plus-circle" class="svg-inline--fa fa-plus-circle fa-w-16 TableView__AddButton__tiJnC TableView__AddRequirementButton__2ZF2X" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm144 276c0 6.6-5.4 12-12 12h-92v92c0 6.6-5.4 12-12 12h-56c-6.6 0-12-5.4-12-12v-92h-92c-6.6 0-12-5.4-12-12v-56c0-6.6 5.4-12 12-12h92v-92c0-6.6 5.4-12 12-12h56c6.6 0 12 5.4 12 12v92h92c6.6 0 12 5.4 12 12v56z"></path></svg></a>
+                    </div> -->
                     </a>
-                    <div class="TableView__AddOptionButtonContainer__2sSYG" style="cursor: pointer;" onclick="window.open('https://docs.google.com/forms/d/1YCBRRyCyt6dGgN74dD18I1OJ3szntC59TTmpcI3Lhe8/edit')"><a data-tip="true" data-for="addOption" currentitem="false"><svg aria-hidden="true" data-prefix="fas" data-icon="plus-circle" class="svg-inline--fa fa-plus-circle fa-w-16 TableView__AddButton__tiJnC TableView__AddOptionButton__33HPp" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm144 276c0 6.6-5.4 12-12 12h-92v92c0 6.6-5.4 12-12 12h-56c-6.6 0-12-5.4-12-12v-92h-92c-6.6 0-12-5.4-12-12v-56c0-6.6 5.4-12 12-12h92v-92c0-6.6 5.4-12 12-12h56c6.6 0 12 5.4 12 12v92h92c6.6 0 12 5.4 12 12v56z"></path></svg></a>
+                    <!-- <div class="TableView__AddOptionButtonContainer__2sSYG" style="cursor: pointer;" ><a data-tip="true" data-for="addOption" currentitem="false"><svg aria-hidden="true" data-prefix="fas" data-icon="plus-circle" class="svg-inline--fa fa-plus-circle fa-w-16 TableView__AddButton__tiJnC TableView__AddOptionButton__33HPp" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm144 276c0 6.6-5.4 12-12 12h-92v92c0 6.6-5.4 12-12 12h-56c-6.6 0-12-5.4-12-12v-92h-92c-6.6 0-12-5.4-12-12v-56c0-6.6 5.4-12 12-12h92v-92c0-6.6 5.4-12 12-12h56c6.6 0 12 5.4 12 12v92h92c6.6 0 12 5.4 12 12v56z"></path></svg></a> -->
                       <div
                         class="__react_component_tooltip place-top type-dark " id="addOption" data-id="tooltip">Add a new option</div>
                   </div>
                   </td>
-
                   <th draggable="true" style="opacity: 1; visibility: visible;">
                     <div class="TableHeader__RequirementContainer__3JgiZ">
                       <div class="TableHeader__OrdinalContainer__35anU"><span class="TableHeader__Ordinal__1VMbe" title="drag to reorder critera">1</span></div>
                       <div class="TableHeader__Requirement__3VSVk">
                         <div class="TableHeader__RequirementStar__3uyDd "><svg aria-hidden="true" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg></div>
                         <div
-                          class="TableHeader__RequirementContentRow__3ODQn"><span title="Click to edit" class="TableHeader__RequirementText__3Efhr" contenteditable="false">if the value for x is not changing</span><span class="TableHeader__MoreIconContainer__W1YcH"><svg aria-hidden="true" data-prefix="fas" data-icon="ellipsis-v" class="svg-inline--fa fa-ellipsis-v fa-w-6 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512"><path fill="currentColor" d="M96 184c39.8 0 72 32.2 72 72s-32.2 72-72 72-72-32.2-72-72 32.2-72 72-72zM24 80c0 39.8 32.2 72 72 72s72-32.2 72-72S135.8 8 96 8 24 40.2 24 80zm0 352c0 39.8 32.2 72 72 72s72-32.2 72-72-32.2-72-72-72-72 32.2-72 72z"></path></svg></span></div>
+                          class="TableHeader__RequirementContentRow__3ODQn"><span title="Click to edit" class="TableHeader__RequirementText__3Efhr" contenteditable="false">only guranteed to work when the value of checked statement is not changing</span><span class="TableHeader__MoreIconContainer__W1YcH"><svg aria-hidden="true" data-prefix="fas" data-icon="ellipsis-v" class="svg-inline--fa fa-ellipsis-v fa-w-6 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512"><path fill="currentColor" d="M96 184c39.8 0 72 32.2 72 72s-32.2 72-72 72-72-32.2-72-72 32.2-72 72-72zM24 80c0 39.8 32.2 72 72 72s72-32.2 72-72S135.8 8 96 8 24 40.2 24 80zm0 352c0 39.8 32.2 72 72 72s72-32.2 72-72-32.2-72-72-72-72 32.2-72 72z"></path></svg></span></div>
                     </div>
                 </div>
                 <div class="TableHeader__PromptAutoSaved__1Mdwo"></div>
@@ -5844,7 +5852,7 @@
                     <div class="TableHeader__Requirement__3VSVk">
                       <div class="TableHeader__RequirementStar__3uyDd "><svg aria-hidden="true" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg></div>
                       <div
-                        class="TableHeader__RequirementContentRow__3ODQn"><span title="Click to edit" class="TableHeader__RequirementText__3Efhr" contenteditable="false">skip evaluating the rest of conditions once a true condition is found</span><span class="TableHeader__MoreIconContainer__W1YcH"><svg aria-hidden="true" data-prefix="fas" data-icon="ellipsis-v" class="svg-inline--fa fa-ellipsis-v fa-w-6 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512"><path fill="currentColor" d="M96 184c39.8 0 72 32.2 72 72s-32.2 72-72 72-72-32.2-72-72 32.2-72 72-72zM24 80c0 39.8 32.2 72 72 72s72-32.2 72-72S135.8 8 96 8 24 40.2 24 80zm0 352c0 39.8 32.2 72 72 72s72-32.2 72-72-32.2-72-72-72-72 32.2-72 72z"></path></svg></span></div>
+                        class="TableHeader__RequirementContentRow__3ODQn"><span title="Click to edit" class="TableHeader__RequirementText__3Efhr" contenteditable="false">skips evaluating the rest of conditions once a true condition is found</span><span class="TableHeader__MoreIconContainer__W1YcH"><svg aria-hidden="true" data-prefix="fas" data-icon="ellipsis-v" class="svg-inline--fa fa-ellipsis-v fa-w-6 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512"><path fill="currentColor" d="M96 184c39.8 0 72 32.2 72 72s-32.2 72-72 72-72-32.2-72-72 32.2-72 72-72zM24 80c0 39.8 32.2 72 72 72s72-32.2 72-72S135.8 8 96 8 24 40.2 24 80zm0 352c0 39.8 32.2 72 72 72s72-32.2 72-72-32.2-72-72-72-72 32.2-72 72z"></path></svg></span></div>
                   </div>
               </div>
               <div class="TableHeader__PromptAutoSaved__1Mdwo"></div>
@@ -5866,7 +5874,7 @@
                 <div class="TableHeader__Requirement__3VSVk">
                   <div class="TableHeader__RequirementStar__3uyDd "><svg aria-hidden="true" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg></div>
                   <div
-                    class="TableHeader__RequirementContentRow__3ODQn"><span title="Click to edit" class="TableHeader__RequirementText__3Efhr" contenteditable="false">need to compare all of the numbers</span><span class="TableHeader__MoreIconContainer__W1YcH"><svg aria-hidden="true" data-prefix="fas" data-icon="ellipsis-v" class="svg-inline--fa fa-ellipsis-v fa-w-6 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512"><path fill="currentColor" d="M96 184c39.8 0 72 32.2 72 72s-32.2 72-72 72-72-32.2-72-72 32.2-72 72-72zM24 80c0 39.8 32.2 72 72 72s72-32.2 72-72S135.8 8 96 8 24 40.2 24 80zm0 352c0 39.8 32.2 72 72 72s72-32.2 72-72-32.2-72-72-72-72 32.2-72 72z"></path></svg></span></div>
+                    class="TableHeader__RequirementContentRow__3ODQn"><span title="Click to edit" class="TableHeader__RequirementText__3Efhr" contenteditable="false">good for comparing all statements/variables</span><span class="TableHeader__MoreIconContainer__W1YcH"><svg aria-hidden="true" data-prefix="fas" data-icon="ellipsis-v" class="svg-inline--fa fa-ellipsis-v fa-w-6 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512"><path fill="currentColor" d="M96 184c39.8 0 72 32.2 72 72s-32.2 72-72 72-72-32.2-72-72 32.2-72 72-72zM24 80c0 39.8 32.2 72 72 72s72-32.2 72-72S135.8 8 96 8 24 40.2 24 80zm0 352c0 39.8 32.2 72 72 72s72-32.2 72-72-32.2-72-72-72-72 32.2-72 72z"></path></svg></span></div>
               </div>
           </div>
           <div class="TableHeader__PromptAutoSaved__1Mdwo"></div>
@@ -5881,7 +5889,7 @@
                     <div class="TableRow__Option__2eUNY">
                       <div class="TableRow__OptionStar__22F0c "><svg aria-hidden="true" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg></div>
                       <div
-                        class="TableRow__OptionContentRow__15qJh"><span title="Click to edit" class="TableRow__OptionText__2pmjH" contenteditable="false">lots of ifs</span><span class="TableRow__MoreIconContainer__sN-fQ"><svg aria-hidden="true" data-prefix="fas" data-icon="ellipsis-v" class="svg-inline--fa fa-ellipsis-v fa-w-6 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512"><path fill="currentColor" d="M96 184c39.8 0 72 32.2 72 72s-32.2 72-72 72-72-32.2-72-72 32.2-72 72-72zM24 80c0 39.8 32.2 72 72 72s72-32.2 72-72S135.8 8 96 8 24 40.2 24 80zm0 352c0 39.8 32.2 72 72 72s72-32.2 72-72-32.2-72-72-72-72 32.2-72 72z"></path></svg></span></div>
+                        class="TableRow__OptionContentRow__15qJh"><span title="Click to edit" class="TableRow__OptionText__2pmjH" contenteditable="false">multiple if statements</span><span class="TableRow__MoreIconContainer__sN-fQ"><svg aria-hidden="true" data-prefix="fas" data-icon="ellipsis-v" class="svg-inline--fa fa-ellipsis-v fa-w-6 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512"><path fill="currentColor" d="M96 184c39.8 0 72 32.2 72 72s-32.2 72-72 72-72-32.2-72-72 32.2-72 72-72zM24 80c0 39.8 32.2 72 72 72s72-32.2 72-72S135.8 8 96 8 24 40.2 24 80zm0 352c0 39.8 32.2 72 72 72s72-32.2 72-72-32.2-72-72-72-72 32.2-72 72z"></path></svg></span></div>
                   </div>
                 </div>
                 <div class="TableRow__PromptAutoSaved__3MPN6"></div>
@@ -5890,7 +5898,7 @@
         <td style="opacity: 1;">
           <div class="TableView__AttitudeThumbInTableCellContainer__2DVCr">
             <div class="TableView__AttitudeInTableCell__1x1Sl" data-tip="true" data-for="-LP2cc310qn1KgsRcXa6-LP2cDcEARLyB07LW_9_-LP2cLu1PrfYw0OMb5Dm" currentitem="false">
-              <div class="QuestionMark__ImageContainer__1htWn"><img src="./multiple if statements_files/question-mark-100.jpg" alt="question-mark" style="cursor: pointer;" onclick="window.open('https://docs.google.com/forms/d/1YCBRRyCyt6dGgN74dD18I1OJ3szntC59TTmpcI3Lhe8/edit')"></div>
+              <div class="QuestionMark__ImageContainer__1htWn"><img src="./multiple if statements_files/question-mark-100.jpg" alt="question-mark" style="cursor: pointer;" ></div>
             </div>
             <div class="__react_component_tooltip place-top type-dark " id="-LP2cc310qn1KgsRcXa6-LP2cDcEARLyB07LW_9_-LP2cLu1PrfYw0OMb5Dm" data-id="tooltip">
               <div class="SnippetCard__SnippetCard__2yq2V  " style="opacity: 1; width: 100%; border-width: 1px; border-style: solid; border-color: lightgray; border-radius: 3px;">
@@ -5923,10 +5931,10 @@
                         <div></div>
                         <div>if the value for x is not changing</div>
                       </div>
-                      <div data-tip="true" data-for="jnkepq58" class="SnippetCard__Attitude__QKmyv" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-down-100.jpg" alt="thumb" style="cursor: pointer;" onclick="window.open('https://docs.google.com/forms/d/1YCBRRyCyt6dGgN74dD18I1OJ3szntC59TTmpcI3Lhe8/edit')"></div>
+                      <div data-tip="true" data-for="jnkepq58" class="SnippetCard__Attitude__QKmyv" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-down-100.jpg" alt="thumb" style="cursor: pointer;" ></div>
                       <div class="__react_component_tooltip place-top type-dark " id="jnkepq58" data-id="tooltip">
                         <div></div>
-                        <div>skip evaluating the rest of conditions once a true condition is found</div>
+                        <div>skips evaluating the rest of conditions once a true condition is found</div>
                       </div>
                     </div>
                   </li>
@@ -5937,12 +5945,12 @@
                         if after one if</div>
                     </div>
                     <div class="SnippetCard__AttitudeListContainer__25jjk">
-                      <div data-tip="true" data-for="jnkepq59" class="SnippetCard__Attitude__QKmyv" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-up-100.jpg" alt="thumb" style="cursor: pointer;" onclick="window.open('https://docs.google.com/forms/d/1YCBRRyCyt6dGgN74dD18I1OJ3szntC59TTmpcI3Lhe8/edit')"></div>
+                      <div data-tip="true" data-for="jnkepq59" class="SnippetCard__Attitude__QKmyv" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-up-100.jpg" alt="thumb" style="cursor: pointer;" ></div>
                       <div class="__react_component_tooltip place-top type-dark " id="jnkepq59" data-id="tooltip">
                         <div></div>
-                        <div>skip evaluating the rest of conditions once a true condition is found</div>
+                        <div>skips evaluating the rest of conditions once a true condition is found</div>
                       </div>
-                      <div data-tip="true" data-for="jnkepq5a" class="SnippetCard__Attitude__QKmyv" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-up-100.jpg" alt="thumb" style="cursor: pointer;" onclick="window.open('https://docs.google.com/forms/d/1YCBRRyCyt6dGgN74dD18I1OJ3szntC59TTmpcI3Lhe8/edit')"></div>
+                      <div data-tip="true" data-for="jnkepq5a" class="SnippetCard__Attitude__QKmyv" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-up-100.jpg" alt="thumb" style="cursor: pointer;" ></div>
                       <div class="__react_component_tooltip place-top type-dark " id="jnkepq5a" data-id="tooltip">
                         <div></div>
                         <div>if the value for x is not changing</div>
@@ -5952,15 +5960,15 @@
                   <li>
                     <div style="display: flex; align-items: center; width: 70%;"><span class="SnippetCard__Ordinal__1kSwF">3</span>
                       <div class="SnippetCard__OptionName__KWRme">
-                        <div class="SnippetCard__OptionStar__3_-6c "><svg aria-hidden="true" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg></div>switch</div>
+                        <div class="SnippetCard__OptionStar__3_-6c "><svg aria-hidden="true" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg></div>switch statements</div>
                     </div>
                     <div class="SnippetCard__AttitudeListContainer__25jjk">
-                      <div data-tip="true" data-for="jnkepq5b" class="SnippetCard__Attitude__QKmyv" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-up-100.jpg" alt="thumb" style="cursor: pointer;" onclick="window.open('https://docs.google.com/forms/d/1YCBRRyCyt6dGgN74dD18I1OJ3szntC59TTmpcI3Lhe8/edit')"></div>
+                      <div data-tip="true" data-for="jnkepq5b" class="SnippetCard__Attitude__QKmyv" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-up-100.jpg" alt="thumb" style="cursor: pointer;" ></div>
                       <div class="__react_component_tooltip place-top type-dark " id="jnkepq5b" data-id="tooltip">
                         <div></div>
-                        <div>skip evaluating the rest of conditions once a true condition is found</div>
+                        <div>skips evaluating the rest of conditions once a true condition is found</div>
                       </div>
-                      <div data-tip="true" data-for="jnkepq5c" class="SnippetCard__Attitude__QKmyv" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-up-100.jpg" alt="thumb" style="cursor: pointer;" onclick="window.open('https://docs.google.com/forms/d/1YCBRRyCyt6dGgN74dD18I1OJ3szntC59TTmpcI3Lhe8/edit')"></div>
+                      <div data-tip="true" data-for="jnkepq5c" class="SnippetCard__Attitude__QKmyv" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-up-100.jpg" alt="thumb" style="cursor: pointer;" ></div>
                       <div class="__react_component_tooltip place-top type-dark " id="jnkepq5c" data-id="tooltip">
                         <div></div>
                         <div>if the value for x is not changing</div>
@@ -5980,7 +5988,7 @@
     </td>
     <td style="opacity: 1;">
       <div class="TableView__AttitudeThumbInTableCellContainer__2DVCr">
-        <div class="TableView__AttitudeInTableCell__1x1Sl" data-tip="true" data-for="-LP2cc310qn1KgsRcXa6-LP2cDcEARLyB07LW_9_-LP2cQN_Q2MGlUoHEDDE" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-down-100.jpg" alt="thumb" style="cursor: pointer;" onclick="window.open('https://docs.google.com/forms/d/1YCBRRyCyt6dGgN74dD18I1OJ3szntC59TTmpcI3Lhe8/edit')"></div>
+        <div class="TableView__AttitudeInTableCell__1x1Sl" data-tip="true" data-for="-LP2cc310qn1KgsRcXa6-LP2cDcEARLyB07LW_9_-LP2cQN_Q2MGlUoHEDDE" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-down-100.jpg" alt="thumb" style="cursor: pointer;" ></div>
         <div class="__react_component_tooltip place-right type-light TableView__TooltipOverAttitude__2cZu1" id="-LP2cc310qn1KgsRcXa6-LP2cDcEARLyB07LW_9_-LP2cQN_Q2MGlUoHEDDE"
           data-id="tooltip" style="left: 675px; top: 33px;">
           <div class="SnippetCard__SnippetCard__2yq2V  " style="opacity: 1; width: 100%; border-width: 1px; border-style: solid; border-color: lightgray; border-radius: 3px;">
@@ -6014,10 +6022,10 @@
                     <div></div>
                     <div>if the value for x is not changing</div>
                   </div>
-                  <div data-tip="true" data-for="jnkepq5e" class="SnippetCard__Attitude__QKmyv" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-down-100.jpg" alt="thumb" style="cursor: pointer;" onclick="window.open('https://docs.google.com/forms/d/1YCBRRyCyt6dGgN74dD18I1OJ3szntC59TTmpcI3Lhe8/edit')"></div>
+                  <div data-tip="true" data-for="jnkepq5e" class="SnippetCard__Attitude__QKmyv" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-down-100.jpg" alt="thumb" style="cursor: pointer;" ></div>
                   <div class="__react_component_tooltip place-top type-dark " id="jnkepq5e" data-id="tooltip">
                     <div></div>
-                    <div>skip evaluating the rest of conditions once a true condition is found</div>
+                    <div>skips evaluating the rest of conditions once a true condition is found</div>
                   </div>
                 </div>
               </li>
@@ -6028,12 +6036,12 @@
                     if after one if</div>
                 </div>
                 <div class="SnippetCard__AttitudeListContainer__25jjk">
-                  <div data-tip="true" data-for="jnkepq5f" class="SnippetCard__Attitude__QKmyv" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-up-100.jpg" alt="thumb" style="cursor: pointer;" onclick="window.open('https://docs.google.com/forms/d/1YCBRRyCyt6dGgN74dD18I1OJ3szntC59TTmpcI3Lhe8/edit')"></div>
+                  <div data-tip="true" data-for="jnkepq5f" class="SnippetCard__Attitude__QKmyv" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-up-100.jpg" alt="thumb" style="cursor: pointer;" ></div>
                   <div class="__react_component_tooltip place-top type-dark " id="jnkepq5f" data-id="tooltip">
                     <div></div>
-                    <div>skip evaluating the rest of conditions once a true condition is found</div>
+                    <div>skips evaluating the rest of conditions once a true condition is found</div>
                   </div>
-                  <div data-tip="true" data-for="jnkepq5g" class="SnippetCard__Attitude__QKmyv" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-up-100.jpg" alt="thumb" style="cursor: pointer;" onclick="window.open('https://docs.google.com/forms/d/1YCBRRyCyt6dGgN74dD18I1OJ3szntC59TTmpcI3Lhe8/edit')"></div>
+                  <div data-tip="true" data-for="jnkepq5g" class="SnippetCard__Attitude__QKmyv" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-up-100.jpg" alt="thumb" style="cursor: pointer;" ></div>
                   <div class="__react_component_tooltip place-top type-dark " id="jnkepq5g" data-id="tooltip">
                     <div></div>
                     <div>if the value for x is not changing</div>
@@ -6043,15 +6051,15 @@
               <li>
                 <div style="display: flex; align-items: center; width: 70%;"><span class="SnippetCard__Ordinal__1kSwF">3</span>
                   <div class="SnippetCard__OptionName__KWRme">
-                    <div class="SnippetCard__OptionStar__3_-6c "><svg aria-hidden="true" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg></div>switch</div>
+                    <div class="SnippetCard__OptionStar__3_-6c "><svg aria-hidden="true" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg></div>switch statements</div>
                 </div>
                 <div class="SnippetCard__AttitudeListContainer__25jjk">
-                  <div data-tip="true" data-for="jnkepq5h" class="SnippetCard__Attitude__QKmyv" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-up-100.jpg" alt="thumb" style="cursor: pointer;" onclick="window.open('https://docs.google.com/forms/d/1YCBRRyCyt6dGgN74dD18I1OJ3szntC59TTmpcI3Lhe8/edit')"></div>
+                  <div data-tip="true" data-for="jnkepq5h" class="SnippetCard__Attitude__QKmyv" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-up-100.jpg" alt="thumb" style="cursor: pointer;" ></div>
                   <div class="__react_component_tooltip place-top type-dark " id="jnkepq5h" data-id="tooltip">
                     <div></div>
-                    <div>skip evaluating the rest of conditions once a true condition is found</div>
+                    <div>skips evaluating the rest of conditions once a true condition is found</div>
                   </div>
-                  <div data-tip="true" data-for="jnkepq5i" class="SnippetCard__Attitude__QKmyv" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-up-100.jpg" alt="thumb" style="cursor: pointer;" onclick="window.open('https://docs.google.com/forms/d/1YCBRRyCyt6dGgN74dD18I1OJ3szntC59TTmpcI3Lhe8/edit')"></div>
+                  <div data-tip="true" data-for="jnkepq5i" class="SnippetCard__Attitude__QKmyv" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-up-100.jpg" alt="thumb" style="cursor: pointer;" ></div>
                   <div class="__react_component_tooltip place-top type-dark " id="jnkepq5i" data-id="tooltip">
                     <div></div>
                     <div>if the value for x is not changing</div>
@@ -6071,14 +6079,14 @@
   </td>
   <td style="opacity: 1;">
     <div class="TableView__AttitudeThumbInTableCellContainer__2DVCr">
-      <div class="TableView__AttitudeInTableCell__1x1Sl" data-tip="true" data-for="-LP2cffmepdaLnJBj6Cz-LP2cDcEARLyB07LW_9_-LP2cmZaKsGRmxwuoMip" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-down-100.jpg" alt="thumb" style="cursor: pointer;" onclick="window.open('https://docs.google.com/forms/d/1YCBRRyCyt6dGgN74dD18I1OJ3szntC59TTmpcI3Lhe8/edit')"></div>
+      <div class="TableView__AttitudeInTableCell__1x1Sl" data-tip="true" data-for="-LP2cffmepdaLnJBj6Cz-LP2cDcEARLyB07LW_9_-LP2cmZaKsGRmxwuoMip" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-down-100.jpg" alt="thumb" style="cursor: pointer;" ></div>
 
     </div>
     </div>
   </td>
   <td style="opacity: 1;">
     <div class="TableView__AttitudeThumbInTableCellContainer__2DVCr">
-      <div class="TableView__AttitudeInTableCell__1x1Sl" data-tip="true" data-for="-LP2dFy1lO0s1IFt3Dse-LP2cDcEARLyB07LW_9_-LP2d80L3K6Y9fcjrL7k" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-up-100.jpg" alt="thumb" style="cursor: pointer;" onclick="window.open('https://docs.google.com/forms/d/1YCBRRyCyt6dGgN74dD18I1OJ3szntC59TTmpcI3Lhe8/edit')"></div>
+      <div class="TableView__AttitudeInTableCell__1x1Sl" data-tip="true" data-for="-LP2dFy1lO0s1IFt3Dse-LP2cDcEARLyB07LW_9_-LP2d80L3K6Y9fcjrL7k" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-up-100.jpg" alt="thumb" style="cursor: pointer;" ></div>
       <div class="__react_component_tooltip place-top type-dark " id="-LP2dFy1lO0s1IFt3Dse-LP2cDcEARLyB07LW_9_-LP2d80L3K6Y9fcjrL7k"
         data-id="tooltip">
         <div class="SnippetCard__SnippetCard__2yq2V  " style="opacity: 1; width: 100%; border-width: 1px; border-style: solid; border-color: lightgray; border-radius: 3px;">
@@ -6097,10 +6105,10 @@
                   of ifs</div>
               </div>
               <div class="SnippetCard__AttitudeListContainer__25jjk">
-                <div data-tip="true" data-for="jnkepq5m" class="SnippetCard__Attitude__QKmyv" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-up-100.jpg" alt="thumb" style="cursor: pointer;" onclick="window.open('https://docs.google.com/forms/d/1YCBRRyCyt6dGgN74dD18I1OJ3szntC59TTmpcI3Lhe8/edit')"></div>
+                <div data-tip="true" data-for="jnkepq5m" class="SnippetCard__Attitude__QKmyv" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-up-100.jpg" alt="thumb" style="cursor: pointer;" ></div>
                 <div class="__react_component_tooltip place-top type-dark " id="jnkepq5m" data-id="tooltip">
                   <div></div>
-                  <div>need to compare all of the numbers</div>
+                  <div>good for comparing all statements/variables</div>
                 </div>
               </div>
             </li>
@@ -6123,7 +6131,7 @@
           <div class="TableRow__Option__2eUNY">
             <div class="TableRow__OptionStar__22F0c "><svg aria-hidden="true" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg></div>
             <div
-              class="TableRow__OptionContentRow__15qJh"><span title="Click to edit" class="TableRow__OptionText__2pmjH" contenteditable="false">else if after one if</span><span class="TableRow__MoreIconContainer__sN-fQ"><svg aria-hidden="true" data-prefix="fas" data-icon="ellipsis-v" class="svg-inline--fa fa-ellipsis-v fa-w-6 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512"><path fill="currentColor" d="M96 184c39.8 0 72 32.2 72 72s-32.2 72-72 72-72-32.2-72-72 32.2-72 72-72zM24 80c0 39.8 32.2 72 72 72s72-32.2 72-72S135.8 8 96 8 24 40.2 24 80zm0 352c0 39.8 32.2 72 72 72s72-32.2 72-72-32.2-72-72-72-72 32.2-72 72z"></path></svg></span></div>
+              class="TableRow__OptionContentRow__15qJh"><span title="Click to edit" class="TableRow__OptionText__2pmjH" contenteditable="false">one if followed by multiple else if statements</span><span class="TableRow__MoreIconContainer__sN-fQ"><svg aria-hidden="true" data-prefix="fas" data-icon="ellipsis-v" class="svg-inline--fa fa-ellipsis-v fa-w-6 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512"><path fill="currentColor" d="M96 184c39.8 0 72 32.2 72 72s-32.2 72-72 72-72-32.2-72-72 32.2-72 72-72zM24 80c0 39.8 32.2 72 72 72s72-32.2 72-72S135.8 8 96 8 24 40.2 24 80zm0 352c0 39.8 32.2 72 72 72s72-32.2 72-72-32.2-72-72-72-72 32.2-72 72z"></path></svg></span></div>
         </div>
       </div>
       <div class="TableRow__PromptAutoSaved__3MPN6"></div>
@@ -6131,7 +6139,7 @@
     </td>
     <td style="opacity: 1;">
       <div class="TableView__AttitudeThumbInTableCellContainer__2DVCr">
-        <div class="TableView__AttitudeInTableCell__1x1Sl" data-tip="true" data-for="-LP2cc310qn1KgsRcXa6-LP2cFibfkJZLDZArDoc-LP2cLu1PrfYw0OMb5Dm" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-up-100.jpg" alt="thumb" style="cursor: pointer;" onclick="window.open('https://docs.google.com/forms/d/1YCBRRyCyt6dGgN74dD18I1OJ3szntC59TTmpcI3Lhe8/edit')"></div>
+        <div class="TableView__AttitudeInTableCell__1x1Sl" data-tip="true" data-for="-LP2cc310qn1KgsRcXa6-LP2cFibfkJZLDZArDoc-LP2cLu1PrfYw0OMb5Dm" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-up-100.jpg" alt="thumb" style="cursor: pointer;" ></div>
         <div class="__react_component_tooltip place-top type-dark " id="-LP2cc310qn1KgsRcXa6-LP2cFibfkJZLDZArDoc-LP2cLu1PrfYw0OMb5Dm"
           data-id="tooltip">
           <div class="SnippetCard__SnippetCard__2yq2V  " style="opacity: 1; width: 100%; border-width: 1px; border-style: solid; border-color: lightgray; border-radius: 3px;">
@@ -6157,7 +6165,7 @@
     </td>
     <td style="opacity: 1;">
       <div class="TableView__AttitudeThumbInTableCellContainer__2DVCr">
-        <div class="TableView__AttitudeInTableCell__1x1Sl" data-tip="true" data-for="-LP2cc310qn1KgsRcXa6-LP2cFibfkJZLDZArDoc-LP2cQN_Q2MGlUoHEDDE" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-up-100.jpg" alt="thumb" style="cursor: pointer;" onclick="window.open('https://docs.google.com/forms/d/1YCBRRyCyt6dGgN74dD18I1OJ3szntC59TTmpcI3Lhe8/edit')"></div>
+        <div class="TableView__AttitudeInTableCell__1x1Sl" data-tip="true" data-for="-LP2cc310qn1KgsRcXa6-LP2cFibfkJZLDZArDoc-LP2cQN_Q2MGlUoHEDDE" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-up-100.jpg" alt="thumb" style="cursor: pointer;" ></div>
         <div class="__react_component_tooltip place-right type-light TableView__TooltipOverAttitude__2cZu1" id="-LP2cc310qn1KgsRcXa6-LP2cFibfkJZLDZArDoc-LP2cQN_Q2MGlUoHEDDE"
           data-id="tooltip" style="left: 675px; top: 89px;">
           <div class="SnippetCard__SnippetCard__2yq2V  " style="opacity: 1; width: 100%; border-width: 1px; border-style: solid; border-color: lightgray; border-radius: 3px;">
@@ -6196,10 +6204,10 @@
                     <div></div>
                     <div>if the value for x is not changing</div>
                   </div>
-                  <div data-tip="true" data-for="jnkepq65" class="SnippetCard__Attitude__QKmyv" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-down-100.jpg" alt="thumb" style="cursor: pointer;" onclick="window.open('https://docs.google.com/forms/d/1YCBRRyCyt6dGgN74dD18I1OJ3szntC59TTmpcI3Lhe8/edit')"></div>
+                  <div data-tip="true" data-for="jnkepq65" class="SnippetCard__Attitude__QKmyv" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-down-100.jpg" alt="thumb" style="cursor: pointer;" ></div>
                   <div class="__react_component_tooltip place-top type-dark " id="jnkepq65" data-id="tooltip">
                     <div></div>
-                    <div>skip evaluating the rest of conditions once a true condition is found</div>
+                    <div>skips evaluating the rest of conditions once a true condition is found</div>
                   </div>
                 </div>
               </li>
@@ -6210,12 +6218,12 @@
                     if after one if</div>
                 </div>
                 <div class="SnippetCard__AttitudeListContainer__25jjk">
-                  <div data-tip="true" data-for="jnkepq66" class="SnippetCard__Attitude__QKmyv" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-up-100.jpg" alt="thumb" style="cursor: pointer;" onclick="window.open('https://docs.google.com/forms/d/1YCBRRyCyt6dGgN74dD18I1OJ3szntC59TTmpcI3Lhe8/edit')"></div>
+                  <div data-tip="true" data-for="jnkepq66" class="SnippetCard__Attitude__QKmyv" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-up-100.jpg" alt="thumb" style="cursor: pointer;" ></div>
                   <div class="__react_component_tooltip place-top type-dark " id="jnkepq66" data-id="tooltip">
                     <div></div>
-                    <div>skip evaluating the rest of conditions once a true condition is found</div>
+                    <div>skips evaluating the rest of conditions once a true condition is found</div>
                   </div>
-                  <div data-tip="true" data-for="jnkepq67" class="SnippetCard__Attitude__QKmyv" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-up-100.jpg" alt="thumb" style="cursor: pointer;" onclick="window.open('https://docs.google.com/forms/d/1YCBRRyCyt6dGgN74dD18I1OJ3szntC59TTmpcI3Lhe8/edit')"></div>
+                  <div data-tip="true" data-for="jnkepq67" class="SnippetCard__Attitude__QKmyv" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-up-100.jpg" alt="thumb" style="cursor: pointer;" ></div>
                   <div class="__react_component_tooltip place-top type-dark " id="jnkepq67" data-id="tooltip">
                     <div></div>
                     <div>if the value for x is not changing</div>
@@ -6225,15 +6233,15 @@
               <li>
                 <div style="display: flex; align-items: center; width: 70%;"><span class="SnippetCard__Ordinal__1kSwF">3</span>
                   <div class="SnippetCard__OptionName__KWRme">
-                    <div class="SnippetCard__OptionStar__3_-6c "><svg aria-hidden="true" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg></div>switch</div>
+                    <div class="SnippetCard__OptionStar__3_-6c "><svg aria-hidden="true" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg></div>switch statements</div>
                 </div>
                 <div class="SnippetCard__AttitudeListContainer__25jjk">
-                  <div data-tip="true" data-for="jnkepq68" class="SnippetCard__Attitude__QKmyv" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-up-100.jpg" alt="thumb" style="cursor: pointer;" onclick="window.open('https://docs.google.com/forms/d/1YCBRRyCyt6dGgN74dD18I1OJ3szntC59TTmpcI3Lhe8/edit')"></div>
+                  <div data-tip="true" data-for="jnkepq68" class="SnippetCard__Attitude__QKmyv" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-up-100.jpg" alt="thumb" style="cursor: pointer;" ></div>
                   <div class="__react_component_tooltip place-top type-dark " id="jnkepq68" data-id="tooltip">
                     <div></div>
-                    <div>skip evaluating the rest of conditions once a true condition is found</div>
+                    <div>skips evaluating the rest of conditions once a true condition is found</div>
                   </div>
-                  <div data-tip="true" data-for="jnkepq69" class="SnippetCard__Attitude__QKmyv" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-up-100.jpg" alt="thumb" style="cursor: pointer;" onclick="window.open('https://docs.google.com/forms/d/1YCBRRyCyt6dGgN74dD18I1OJ3szntC59TTmpcI3Lhe8/edit')"></div>
+                  <div data-tip="true" data-for="jnkepq69" class="SnippetCard__Attitude__QKmyv" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-up-100.jpg" alt="thumb" style="cursor: pointer;" ></div>
                   <div class="__react_component_tooltip place-top type-dark " id="jnkepq69" data-id="tooltip">
                     <div></div>
                     <div>if the value for x is not changing</div>
@@ -6253,7 +6261,7 @@
     </td>
     <td style="opacity: 1;">
       <div class="TableView__AttitudeThumbInTableCellContainer__2DVCr">
-        <div class="TableView__AttitudeInTableCell__1x1Sl" data-tip="true" data-for="-LP2cffmepdaLnJBj6Cz-LP2cFibfkJZLDZArDoc-LP2cmZaKsGRmxwuoMip" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-up-100.jpg" alt="thumb" style="cursor: pointer;" onclick="window.open('https://docs.google.com/forms/d/1YCBRRyCyt6dGgN74dD18I1OJ3szntC59TTmpcI3Lhe8/edit')"></div>
+        <div class="TableView__AttitudeInTableCell__1x1Sl" data-tip="true" data-for="-LP2cffmepdaLnJBj6Cz-LP2cFibfkJZLDZArDoc-LP2cmZaKsGRmxwuoMip" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-up-100.jpg" alt="thumb" style="cursor: pointer;" ></div>
         <div class="__react_component_tooltip place-top type-dark " id="-LP2cffmepdaLnJBj6Cz-LP2cFibfkJZLDZArDoc-LP2cmZaKsGRmxwuoMip"
           data-id="tooltip">
           <div class="SnippetCard__SnippetCard__2yq2V  " style="opacity: 1; width: 100%; border-width: 1px; border-style: solid; border-color: lightgray; border-radius: 3px;">
@@ -6288,7 +6296,7 @@
                     of ifs</div>
                 </div>
                 <div class="SnippetCard__AttitudeListContainer__25jjk">
-                  <div data-tip="true" data-for="jnkepq6a" class="SnippetCard__Attitude__QKmyv" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-down-100.jpg" alt="thumb" style="cursor: pointer;" onclick="window.open('https://docs.google.com/forms/d/1YCBRRyCyt6dGgN74dD18I1OJ3szntC59TTmpcI3Lhe8/edit')"></div>
+                  <div data-tip="true" data-for="jnkepq6a" class="SnippetCard__Attitude__QKmyv" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-down-100.jpg" alt="thumb" style="cursor: pointer;" ></div>
                   <div class="__react_component_tooltip place-top type-dark " id="jnkepq6a" data-id="tooltip">
                     <div></div>
                     <div>more efficient</div>
@@ -6302,7 +6310,7 @@
                     if after one if</div>
                 </div>
                 <div class="SnippetCard__AttitudeListContainer__25jjk">
-                  <div data-tip="true" data-for="jnkepq6b" class="SnippetCard__Attitude__QKmyv" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-up-100.jpg" alt="thumb" style="cursor: pointer;" onclick="window.open('https://docs.google.com/forms/d/1YCBRRyCyt6dGgN74dD18I1OJ3szntC59TTmpcI3Lhe8/edit')"></div>
+                  <div data-tip="true" data-for="jnkepq6b" class="SnippetCard__Attitude__QKmyv" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-up-100.jpg" alt="thumb" style="cursor: pointer;" ></div>
                   <div class="__react_component_tooltip place-top type-dark " id="jnkepq6b" data-id="tooltip">
                     <div></div>
                     <div>more efficient</div>
@@ -6312,10 +6320,10 @@
               <li>
                 <div style="display: flex; align-items: center; width: 70%;"><span class="SnippetCard__Ordinal__1kSwF">3</span>
                   <div class="SnippetCard__OptionName__KWRme">
-                    <div class="SnippetCard__OptionStar__3_-6c "><svg aria-hidden="true" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg></div>switch</div>
+                    <div class="SnippetCard__OptionStar__3_-6c "><svg aria-hidden="true" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg></div>switch statements statements</div>
                 </div>
                 <div class="SnippetCard__AttitudeListContainer__25jjk">
-                  <div data-tip="true" data-for="jnkepq6c" class="SnippetCard__Attitude__QKmyv" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-up-100.jpg" alt="thumb" style="cursor: pointer;" onclick="window.open('https://docs.google.com/forms/d/1YCBRRyCyt6dGgN74dD18I1OJ3szntC59TTmpcI3Lhe8/edit')"></div>
+                  <div data-tip="true" data-for="jnkepq6c" class="SnippetCard__Attitude__QKmyv" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-up-100.jpg" alt="thumb" style="cursor: pointer;" ></div>
                   <div class="__react_component_tooltip place-top type-dark " id="jnkepq6c" data-id="tooltip">
                     <div></div>
                     <div>more efficient</div>
@@ -6344,7 +6352,7 @@
           <div class="TableRow__Option__2eUNY">
             <div class="TableRow__OptionStar__22F0c "><svg aria-hidden="true" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg></div>
             <div
-              class="TableRow__OptionContentRow__15qJh"><span title="Click to edit" class="TableRow__OptionText__2pmjH" contenteditable="false">switch</span><span class="TableRow__MoreIconContainer__sN-fQ"><svg aria-hidden="true" data-prefix="fas" data-icon="ellipsis-v" class="svg-inline--fa fa-ellipsis-v fa-w-6 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512"><path fill="currentColor" d="M96 184c39.8 0 72 32.2 72 72s-32.2 72-72 72-72-32.2-72-72 32.2-72 72-72zM24 80c0 39.8 32.2 72 72 72s72-32.2 72-72S135.8 8 96 8 24 40.2 24 80zm0 352c0 39.8 32.2 72 72 72s72-32.2 72-72-32.2-72-72-72-72 32.2-72 72z"></path></svg></span></div>
+              class="TableRow__OptionContentRow__15qJh"><span title="Click to edit" class="TableRow__OptionText__2pmjH" contenteditable="false">switch statements</span><span class="TableRow__MoreIconContainer__sN-fQ"><svg aria-hidden="true" data-prefix="fas" data-icon="ellipsis-v" class="svg-inline--fa fa-ellipsis-v fa-w-6 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512"><path fill="currentColor" d="M96 184c39.8 0 72 32.2 72 72s-32.2 72-72 72-72-32.2-72-72 32.2-72 72-72zM24 80c0 39.8 32.2 72 72 72s72-32.2 72-72S135.8 8 96 8 24 40.2 24 80zm0 352c0 39.8 32.2 72 72 72s72-32.2 72-72-32.2-72-72-72-72 32.2-72 72z"></path></svg></span></div>
         </div>
       </div>
       <div class="TableRow__PromptAutoSaved__3MPN6"></div>
@@ -6352,7 +6360,7 @@
     </td>
     <td style="opacity: 1;">
       <div class="TableView__AttitudeThumbInTableCellContainer__2DVCr">
-        <div class="TableView__AttitudeInTableCell__1x1Sl" data-tip="true" data-for="-LP2cc310qn1KgsRcXa6-LP2cTVoTikxOukCX7lz-LP2cLu1PrfYw0OMb5Dm" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-up-100.jpg" alt="thumb" style="cursor: pointer;" onclick="window.open('https://docs.google.com/forms/d/1YCBRRyCyt6dGgN74dD18I1OJ3szntC59TTmpcI3Lhe8/edit')"></div>
+        <div class="TableView__AttitudeInTableCell__1x1Sl" data-tip="true" data-for="-LP2cc310qn1KgsRcXa6-LP2cTVoTikxOukCX7lz-LP2cLu1PrfYw0OMb5Dm" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-up-100.jpg" alt="thumb" style="cursor: pointer;" ></div>
         <div class="__react_component_tooltip place-top type-dark " id="-LP2cc310qn1KgsRcXa6-LP2cTVoTikxOukCX7lz-LP2cLu1PrfYw0OMb5Dm"
           data-id="tooltip">
           <div class="SnippetCard__SnippetCard__2yq2V  " style="opacity: 1; width: 100%; border-width: 1px; border-style: solid; border-color: lightgray; border-radius: 3px;">
@@ -6391,10 +6399,10 @@
                     <div></div>
                     <div>if the value for x is not changing</div>
                   </div>
-                  <div data-tip="true" data-for="jnkepq6f" class="SnippetCard__Attitude__QKmyv" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-down-100.jpg" alt="thumb" style="cursor: pointer;" onclick="window.open('https://docs.google.com/forms/d/1YCBRRyCyt6dGgN74dD18I1OJ3szntC59TTmpcI3Lhe8/edit')"></div>
+                  <div data-tip="true" data-for="jnkepq6f" class="SnippetCard__Attitude__QKmyv" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-down-100.jpg" alt="thumb" style="cursor: pointer;" ></div>
                   <div class="__react_component_tooltip place-top type-dark " id="jnkepq6f" data-id="tooltip">
                     <div></div>
-                    <div>skip evaluating the rest of conditions once a true condition is found</div>
+                    <div>skips evaluating the rest of conditions once a true condition is found</div>
                   </div>
                 </div>
               </li>
@@ -6405,12 +6413,12 @@
                     if after one if</div>
                 </div>
                 <div class="SnippetCard__AttitudeListContainer__25jjk">
-                  <div data-tip="true" data-for="jnkepq6g" class="SnippetCard__Attitude__QKmyv" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-up-100.jpg" alt="thumb" style="cursor: pointer;" onclick="window.open('https://docs.google.com/forms/d/1YCBRRyCyt6dGgN74dD18I1OJ3szntC59TTmpcI3Lhe8/edit')"></div>
+                  <div data-tip="true" data-for="jnkepq6g" class="SnippetCard__Attitude__QKmyv" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-up-100.jpg" alt="thumb" style="cursor: pointer;" ></div>
                   <div class="__react_component_tooltip place-top type-dark " id="jnkepq6g" data-id="tooltip">
                     <div></div>
-                    <div>skip evaluating the rest of conditions once a true condition is found</div>
+                    <div>skips evaluating the rest of conditions once a true condition is found</div>
                   </div>
-                  <div data-tip="true" data-for="jnkepq6h" class="SnippetCard__Attitude__QKmyv" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-up-100.jpg" alt="thumb" style="cursor: pointer;" onclick="window.open('https://docs.google.com/forms/d/1YCBRRyCyt6dGgN74dD18I1OJ3szntC59TTmpcI3Lhe8/edit')"></div>
+                  <div data-tip="true" data-for="jnkepq6h" class="SnippetCard__Attitude__QKmyv" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-up-100.jpg" alt="thumb" style="cursor: pointer;" ></div>
                   <div class="__react_component_tooltip place-top type-dark " id="jnkepq6h" data-id="tooltip">
                     <div></div>
                     <div>if the value for x is not changing</div>
@@ -6420,15 +6428,15 @@
               <li>
                 <div style="display: flex; align-items: center; width: 70%;"><span class="SnippetCard__Ordinal__1kSwF">3</span>
                   <div class="SnippetCard__OptionName__KWRme">
-                    <div class="SnippetCard__OptionStar__3_-6c "><svg aria-hidden="true" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg></div>switch</div>
+                    <div class="SnippetCard__OptionStar__3_-6c "><svg aria-hidden="true" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg></div>switch statements</div>
                 </div>
                 <div class="SnippetCard__AttitudeListContainer__25jjk">
-                  <div data-tip="true" data-for="jnkepq6i" class="SnippetCard__Attitude__QKmyv" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-up-100.jpg" alt="thumb" style="cursor: pointer;" onclick="window.open('https://docs.google.com/forms/d/1YCBRRyCyt6dGgN74dD18I1OJ3szntC59TTmpcI3Lhe8/edit')"></div>
+                  <div data-tip="true" data-for="jnkepq6i" class="SnippetCard__Attitude__QKmyv" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-up-100.jpg" alt="thumb" style="cursor: pointer;" ></div>
                   <div class="__react_component_tooltip place-top type-dark " id="jnkepq6i" data-id="tooltip">
                     <div></div>
-                    <div>skip evaluating the rest of conditions once a true condition is found</div>
+                    <div>skips evaluating the rest of conditions once a true condition is found</div>
                   </div>
-                  <div data-tip="true" data-for="jnkepq6j" class="SnippetCard__Attitude__QKmyv" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-up-100.jpg" alt="thumb" style="cursor: pointer;" onclick="window.open('https://docs.google.com/forms/d/1YCBRRyCyt6dGgN74dD18I1OJ3szntC59TTmpcI3Lhe8/edit')"></div>
+                  <div data-tip="true" data-for="jnkepq6j" class="SnippetCard__Attitude__QKmyv" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-up-100.jpg" alt="thumb" style="cursor: pointer;" ></div>
                   <div class="__react_component_tooltip place-top type-dark " id="jnkepq6j" data-id="tooltip">
                     <div></div>
                     <div>if the value for x is not changing</div>
@@ -6448,7 +6456,7 @@
     </td>
     <td style="opacity: 1;">
       <div class="TableView__AttitudeThumbInTableCellContainer__2DVCr">
-        <div class="TableView__AttitudeInTableCell__1x1Sl" data-tip="true" data-for="-LP2cc310qn1KgsRcXa6-LP2cTVoTikxOukCX7lz-LP2cQN_Q2MGlUoHEDDE" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-up-100.jpg" alt="thumb" style="cursor: pointer;" onclick="window.open('https://docs.google.com/forms/d/1YCBRRyCyt6dGgN74dD18I1OJ3szntC59TTmpcI3Lhe8/edit')"></div>
+        <div class="TableView__AttitudeInTableCell__1x1Sl" data-tip="true" data-for="-LP2cc310qn1KgsRcXa6-LP2cTVoTikxOukCX7lz-LP2cQN_Q2MGlUoHEDDE" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-up-100.jpg" alt="thumb" style="cursor: pointer;" ></div>
         <div class="__react_component_tooltip place-right type-light TableView__TooltipOverAttitude__2cZu1" id="-LP2cc310qn1KgsRcXa6-LP2cTVoTikxOukCX7lz-LP2cQN_Q2MGlUoHEDDE"
           data-id="tooltip" style="left: 675px; top: 146px;">
           <div class="SnippetCard__SnippetCard__2yq2V  " style="opacity: 1; width: 100%; border-width: 1px; border-style: solid; border-color: lightgray; border-radius: 3px;">
@@ -6479,10 +6487,10 @@
                     <div></div>
                     <div>if the value for x is not changing</div>
                   </div>
-                  <div data-tip="true" data-for="jnkepq6n" class="SnippetCard__Attitude__QKmyv" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-down-100.jpg" alt="thumb" style="cursor: pointer;" onclick="window.open('https://docs.google.com/forms/d/1YCBRRyCyt6dGgN74dD18I1OJ3szntC59TTmpcI3Lhe8/edit')"></div>
+                  <div data-tip="true" data-for="jnkepq6n" class="SnippetCard__Attitude__QKmyv" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-down-100.jpg" alt="thumb" style="cursor: pointer;" ></div>
                   <div class="__react_component_tooltip place-top type-dark " id="jnkepq6n" data-id="tooltip">
                     <div></div>
-                    <div>skip evaluating the rest of conditions once a true condition is found</div>
+                    <div>skips evaluating the rest of conditions once a true condition is found</div>
                   </div>
                 </div>
               </li>
@@ -6493,12 +6501,12 @@
                     if after one if</div>
                 </div>
                 <div class="SnippetCard__AttitudeListContainer__25jjk">
-                  <div data-tip="true" data-for="jnkepq6o" class="SnippetCard__Attitude__QKmyv" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-up-100.jpg" alt="thumb" style="cursor: pointer;" onclick="window.open('https://docs.google.com/forms/d/1YCBRRyCyt6dGgN74dD18I1OJ3szntC59TTmpcI3Lhe8/edit')"></div>
+                  <div data-tip="true" data-for="jnkepq6o" class="SnippetCard__Attitude__QKmyv" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-up-100.jpg" alt="thumb" style="cursor: pointer;" ></div>
                   <div class="__react_component_tooltip place-top type-dark " id="jnkepq6o" data-id="tooltip">
                     <div></div>
-                    <div>skip evaluating the rest of conditions once a true condition is found</div>
+                    <div>skips evaluating the rest of conditions once a true condition is found</div>
                   </div>
-                  <div data-tip="true" data-for="jnkepq6p" class="SnippetCard__Attitude__QKmyv" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-up-100.jpg" alt="thumb" style="cursor: pointer;" onclick="window.open('https://docs.google.com/forms/d/1YCBRRyCyt6dGgN74dD18I1OJ3szntC59TTmpcI3Lhe8/edit')"></div>
+                  <div data-tip="true" data-for="jnkepq6p" class="SnippetCard__Attitude__QKmyv" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-up-100.jpg" alt="thumb" style="cursor: pointer;" ></div>
                   <div class="__react_component_tooltip place-top type-dark " id="jnkepq6p" data-id="tooltip">
                     <div></div>
                     <div>if the value for x is not changing</div>
@@ -6508,15 +6516,15 @@
               <li>
                 <div style="display: flex; align-items: center; width: 70%;"><span class="SnippetCard__Ordinal__1kSwF">3</span>
                   <div class="SnippetCard__OptionName__KWRme">
-                    <div class="SnippetCard__OptionStar__3_-6c "><svg aria-hidden="true" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg></div>switch</div>
+                    <div class="SnippetCard__OptionStar__3_-6c "><svg aria-hidden="true" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg></div>switch statements</div>
                 </div>
                 <div class="SnippetCard__AttitudeListContainer__25jjk">
-                  <div data-tip="true" data-for="jnkepq6q" class="SnippetCard__Attitude__QKmyv" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-up-100.jpg" alt="thumb" style="cursor: pointer;" onclick="window.open('https://docs.google.com/forms/d/1YCBRRyCyt6dGgN74dD18I1OJ3szntC59TTmpcI3Lhe8/edit')"></div>
+                  <div data-tip="true" data-for="jnkepq6q" class="SnippetCard__Attitude__QKmyv" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-up-100.jpg" alt="thumb" style="cursor: pointer;" ></div>
                   <div class="__react_component_tooltip place-top type-dark " id="jnkepq6q" data-id="tooltip">
                     <div></div>
-                    <div>skip evaluating the rest of conditions once a true condition is found</div>
+                    <div>skips evaluating the rest of conditions once a true condition is found</div>
                   </div>
-                  <div data-tip="true" data-for="jnkepq6r" class="SnippetCard__Attitude__QKmyv" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-up-100.jpg" alt="thumb" style="cursor: pointer;" onclick="window.open('https://docs.google.com/forms/d/1YCBRRyCyt6dGgN74dD18I1OJ3szntC59TTmpcI3Lhe8/edit')"></div>
+                  <div data-tip="true" data-for="jnkepq6r" class="SnippetCard__Attitude__QKmyv" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-up-100.jpg" alt="thumb" style="cursor: pointer;" ></div>
                   <div class="__react_component_tooltip place-top type-dark " id="jnkepq6r" data-id="tooltip">
                     <div></div>
                     <div>if the value for x is not changing</div>
@@ -6536,7 +6544,7 @@
     </td>
     <td style="opacity: 1;">
       <div class="TableView__AttitudeThumbInTableCellContainer__2DVCr">
-        <div class="TableView__AttitudeInTableCell__1x1Sl" data-tip="true" data-for="-LP2cffmepdaLnJBj6Cz-LP2cTVoTikxOukCX7lz-LP2cmZaKsGRmxwuoMip" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-up-100.jpg" alt="thumb" style="cursor: pointer;" onclick="window.open('https://docs.google.com/forms/d/1YCBRRyCyt6dGgN74dD18I1OJ3szntC59TTmpcI3Lhe8/edit')"></div>
+        <div class="TableView__AttitudeInTableCell__1x1Sl" data-tip="true" data-for="-LP2cffmepdaLnJBj6Cz-LP2cTVoTikxOukCX7lz-LP2cmZaKsGRmxwuoMip" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-up-100.jpg" alt="thumb" style="cursor: pointer;" ></div>
         <div class="__react_component_tooltip place-top type-dark " id="-LP2cffmepdaLnJBj6Cz-LP2cTVoTikxOukCX7lz-LP2cmZaKsGRmxwuoMip"
           data-id="tooltip">
           <div class="SnippetCard__SnippetCard__2yq2V  " style="opacity: 1; width: 100%; border-width: 1px; border-style: solid; border-color: lightgray; border-radius: 3px;">
@@ -6571,7 +6579,7 @@
                     of ifs</div>
                 </div>
                 <div class="SnippetCard__AttitudeListContainer__25jjk">
-                  <div data-tip="true" data-for="jnkepq6s" class="SnippetCard__Attitude__QKmyv" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-down-100.jpg" alt="thumb" style="cursor: pointer;" onclick="window.open('https://docs.google.com/forms/d/1YCBRRyCyt6dGgN74dD18I1OJ3szntC59TTmpcI3Lhe8/edit')"></div>
+                  <div data-tip="true" data-for="jnkepq6s" class="SnippetCard__Attitude__QKmyv" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-down-100.jpg" alt="thumb" style="cursor: pointer;" ></div>
                   <div class="__react_component_tooltip place-top type-dark " id="jnkepq6s" data-id="tooltip">
                     <div></div>
                     <div>more efficient</div>
@@ -6585,7 +6593,7 @@
                     if after one if</div>
                 </div>
                 <div class="SnippetCard__AttitudeListContainer__25jjk">
-                  <div data-tip="true" data-for="jnkepq6t" class="SnippetCard__Attitude__QKmyv" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-up-100.jpg" alt="thumb" style="cursor: pointer;" onclick="window.open('https://docs.google.com/forms/d/1YCBRRyCyt6dGgN74dD18I1OJ3szntC59TTmpcI3Lhe8/edit')"></div>
+                  <div data-tip="true" data-for="jnkepq6t" class="SnippetCard__Attitude__QKmyv" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-up-100.jpg" alt="thumb" style="cursor: pointer;" ></div>
                   <div class="__react_component_tooltip place-top type-dark " id="jnkepq6t" data-id="tooltip">
                     <div></div>
                     <div>more efficient</div>
@@ -6595,10 +6603,10 @@
               <li>
                 <div style="display: flex; align-items: center; width: 70%;"><span class="SnippetCard__Ordinal__1kSwF">3</span>
                   <div class="SnippetCard__OptionName__KWRme">
-                    <div class="SnippetCard__OptionStar__3_-6c "><svg aria-hidden="true" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg></div>switch</div>
+                    <div class="SnippetCard__OptionStar__3_-6c "><svg aria-hidden="true" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg></div>switch statements</div>
                 </div>
                 <div class="SnippetCard__AttitudeListContainer__25jjk">
-                  <div data-tip="true" data-for="jnkepq6u" class="SnippetCard__Attitude__QKmyv" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-up-100.jpg" alt="thumb" style="cursor: pointer;" onclick="window.open('https://docs.google.com/forms/d/1YCBRRyCyt6dGgN74dD18I1OJ3szntC59TTmpcI3Lhe8/edit')"></div>
+                  <div data-tip="true" data-for="jnkepq6u" class="SnippetCard__Attitude__QKmyv" currentitem="false"><img class="ThumbV1__Image__XNByy" img src="./multiple if statements_files/thumb-up-100.jpg" alt="thumb" style="cursor: pointer;" ></div>
                   <div class="__react_component_tooltip place-top type-dark " id="jnkepq6u" data-id="tooltip">
                     <div></div>
                     <div>more efficient</div>
@@ -6622,6 +6630,10 @@
   </tr>
   </tbody>
   </table>
+  <p></p>
+  <div class="CurrentTaskPage__Content__38jp2">
+  <div class="CurrentTaskPage__Content">The comparison table above is part of a working progress for representing information related to decisions in programming, to provide feedback or learn more about our project, please visit our <a href="https://docs.google.com/forms/d/1YCBRRyCyt6dGgN74dD18I1OJ3szntC59TTmpcI3Lhe8/edit">Google form</a>.</div>
+  </div>
   </div>
 </body>
 
