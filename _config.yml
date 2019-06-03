@@ -1,2 +1,27 @@
-future: true
-remote_theme: jamigibbs/phantom
+title: Jane Hsieh
+subtitle: Undergraduate Researcher at Oberlin College
+description: >- # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "janeon.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
+author_logo: profile.png
+author:  janeon
+author_bio: Hello, I am a rising-senior at Oberlin College with experience in HCI research and frontend engineering. Check out my projects repos and publications above. Let's keep in touch!
+author_email: "jhsieh@oberlin.edu"
+author_location:  Oberlin, Ohio
+author_website_url:  "janeon.github.io"
+
+# social links
+twitter_username: yourusername
+github_username:  janeon
+facebook_username: yourusername
+linkedin_username: yourusername
+behance_username: yourusername
+instagram_username: yourusername
+medium_username: yourusername
+telegram_username: yourusername
+dribbble_username: yourusername
+flickr_username: yourusername
