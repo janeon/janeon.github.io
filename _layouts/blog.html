@@ -1,9 +1,8 @@
---- 
-layout: default 
+---
+layout: default
 ---
 
     <div class="row">
-
         <div class="col-lg-8 col-md-4">
             <ul>
                 <div class="row">
@@ -29,31 +28,33 @@ layout: default
         </div>
 
         <div class="col-lg-4">
-            <div class="card">
-                <div class="card-header"> About {{ site.author }} </div>
-                <div class="card-body text-dark">
-                    <p> devlopr is a rubygem ( Jekyll Theme ) built for Developers. Anyone can create their website and host it freely
-                        like this. All you need is to follow the simple steps in the DOCS !!</p>
-                </div>
-            </div>
-            <div class="card">
+          <div class="card">
 
-                <div class="card-header">Categories </div>
-                <div class="card-body text-dark">
-                    {% for tag in site.categories %} {% capture tag_name %}{{ tag | first }}{% endcapture %}
-                    <div id="#{{ tag_name | slugize }}"></div>
-                    <li class="tag-head">
-                        <a href="{{ site.baseurl }}/blog/categories/{{ tag_name }}">{{ tag_name }}</a>
-                    </li>
-                    <a name="{{ tag_name | slugize }}"></a>
+              <div class="card-header">Categories </div>
+              <div class="card-body text-dark">
+                  {% for tag in site.categories %} {% capture tag_name %}{{ tag | first }}{% endcapture %}
+                  <div id="#{{ tag_name | slugize }}"></div>
+                  <li class="tag-head">
+                      <a href="{{ site.baseurl }}/blog/categories/{{ tag_name }}">{{ tag_name }}</a>
+                  </li>
+                  <a name="{{ tag_name | slugize }}"></a>
 
-                    {% endfor %}
-                </div>
+                  {% endfor %}
+              </div>
+          </div>
+          <div class="card">
+              <h1> Coding Activity </h1>
+              Template data
+              <figure>
+                  <embed src="https://wakatime.com/share/@sujaykundu777/f540df00-f2d1-46e2-a360-da7e13ed8a66.svg"></embed>
+              </figure>
 
+              <figure>
+                  <embed src="https://wakatime.com/share/@sujaykundu777/1550a9f1-d41a-4745-92a0-181a6fbb2456.svg"></embed>
+              </figure>
 
-            </div>
-            <div class="card">
-                <!-- Begin MailChimp Signup Form -->
-                {%- include newsletter.html -%}
-            </div>
+              My weekly coding activity
+              {%- include activity.html -%}
+          </div>
+
         </div>

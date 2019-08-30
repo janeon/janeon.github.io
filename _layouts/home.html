@@ -8,13 +8,13 @@ layout: default
     <div class="col-lg-8">
 
         <div class="card">
-            <h1 class="card-title">About Me</h1>
+            <h1 class="card-title">about me</h1>
 
             <p> {{ site.author_bio }} </p>
         </div>
 
         <div class="card">
-            <h1 class="card-title"> Experiences</h1>
+            <h1 class="card-title"> experiences</h1>
 
             <br />
             <div class="row">
@@ -82,7 +82,7 @@ underrepresented</p>
             <div class="row">
                 <div class="col-md-5">
 
-                      <img src="/assets/img/ds.jpg" class="project-img" />
+                      <img src="/assets/img/ds.jpg" style="width:300px;border-radius:15px" />
                   </div>
                   <div class="col-md-5">
                     <h4 class="project-title"> Denison Spring 2019</h4>
@@ -135,11 +135,14 @@ underrepresented</p>
         </div>
 
         <div class="card">
-            <h1> Coding Activity </h1>
-
-            {%- include activity.html -%}
-
+          <div class="cleanslate w24tz-current-time w24tz-middle" style="display: inline-block !important; visibility: hidden !important; min-width:300px !important; min-height:145px !important;">
+              <a href="//24timezones.com/world_directory/time_in_dallas.php" style="text-decoration: none" class="clock24" id="tz24-1567178880-c170-eyJob3VydHlwZSI6MTIsInNob3dkYXRlIjoiMSIsInNob3dzZWNvbmRzIjoiMSIsImNvbnRhaW5lcl9pZCI6ImNsb2NrX2Jsb2NrX2NiNWQ2OTQwODBhZDMxOSIsInR5cGUiOiJkYiIsImxhbmciOiJlbiJ9" title="Dallas - Clock" target="_blank" rel="nofollow">
+              </a>
+            <div id="clock_block_cb5d694080ad319"></div>
+          </div>
+          <script type="text/javascript" src="//w.24timezones.com/l.js" async></script>
         </div>
+
 
     </div>
     </div>
