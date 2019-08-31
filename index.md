@@ -1,4 +1,4 @@
 ---
-layout: blog
-title: Projects
+layout: home
+title: resume
 ---
