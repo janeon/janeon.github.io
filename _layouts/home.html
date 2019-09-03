@@ -25,10 +25,11 @@ layout: default
                     <h4 class="experience-title"> Extreme Blue</h4>
                     <h6 class="experience-info"> IBM Raleigh (May - August 2019)</h6>
                     <p class="experience-desc"> Working on project related to Kubernetes and IBM Cloud Private </p>
-                    <a class="project-link" href="https://www.ibm.com/employment/extremeblue/">https://www.ibm.com/employment/extremeblue/</a>
+                    <a class="project-link" href="https://www.ibm.com/employment/extremeblue/">ibm.com/employment/extremeblue/</a>
                 </div>
             </div>
             <br />
+
 
             <div class="row">
                 <div class="col-md-2">
@@ -38,7 +39,7 @@ layout: default
                     <h4 class="experience-title"> REUSE</h4>
                     <h6 class="experience-info">REU Program for Software Engineering at Carnegie Mellon University</h6>
                     <p class="experience-desc"> Assisted in building UNAKITE at the Human Computer Interaction Insititute</p>
-                    <a class="project-link" href="https://www.cmu.edu/scs/isr/reuse/">https://www.cmu.edu/scs/isr/reuse/</a>
+                    <a class="project-link" href="https://www.cmu.edu/scs/isr/reuse/">cmu.edu/scs/isr/reuse/</a>
                 </div>
             </div>
             <br />
@@ -50,6 +51,7 @@ layout: default
                     <h4 class="experience-title"> STRONG</h4>
                     <h6 class="experience-info">Science and Technology Research Opportunities for a New Generation at Oberlin College</h6>
                     <p class="experience-desc"> Experimental research on nanoparticle physics</p>
+                    <a class="project-link" href="https://www.oberlin.edu/undergraduate-research/programs/strong">oberlin.edu/undergraduate-research/programs/strong</a>
 
                 </div>
             </div>
@@ -134,6 +136,25 @@ underrepresented</p>
             <p> LaTex , HTML , CSS , Git , Linux , Swift </p>
         </div>
 
+
+        <div class="card">
+            <h1> Coding Activity </h1>
+            {%- include activity.html -%}
+        </div>
+
+        <div class="card">
+            <div class="card-header">Categories </div>
+            <div class="card-body text-dark">
+                {% for tag in site.categories %} {% capture tag_name %}{{ tag | first }}{% endcapture %}
+                <div id="#{{ tag_name | slugize }}"></div>
+                <li class="tag-head">
+                    <a href="{{ site.baseurl }}/blog/categories/{{ tag_name }}">{{ tag_name }}</a>
+                </li>
+                <a name="{{ tag_name | slugize }}"></a>
+                {% endfor %}
+            </div>
+        </div>
+
         <div class="card">
           <div class="cleanslate w24tz-current-time w24tz-middle" style="display: inline-block !important; visibility: hidden !important; min-width:300px !important; min-height:145px !important;">
               <a href="//24timezones.com/world_directory/time_in_dallas.php" style="text-decoration: none" class="clock24" id="tz24-1567178880-c170-eyJob3VydHlwZSI6MTIsInNob3dkYXRlIjoiMSIsInNob3dzZWNvbmRzIjoiMSIsImNvbnRhaW5lcl9pZCI6ImNsb2NrX2Jsb2NrX2NiNWQ2OTQwODBhZDMxOSIsInR5cGUiOiJkYiIsImxhbmciOiJlbiJ9" title="Dallas - Clock" target="_blank" rel="nofollow">
@@ -142,7 +163,6 @@ underrepresented</p>
           </div>
           <script type="text/javascript" src="//w.24timezones.com/l.js" async></script>
         </div>
-
 
     </div>
     </div>
