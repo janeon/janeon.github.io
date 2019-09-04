@@ -1,5 +1,5 @@
 ---
-title: Multicloud-incident-response-navigator
+title: Multicloud incident response navigator
 layout: post
 author: Jane Hsieh
 categories:
