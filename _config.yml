@@ -9,10 +9,12 @@ url: "janeon.github.io" # the base hostname & protocol for your site, e.g. http:
 
 author_logo: profile.png
 author:  janeon
-author_bio: Hi there, thanks for visiting. <br></br> I'm a rising-senior at Oberlin College passionate about in HCI research and frontend engineering. <br></br> Check out my project repos and research publications. Let's keep in touch!
-author_email: "jhsieh@oberlin.edu"
+author_bio: Hi there, thanks for visiting. <br></br> I'm a recent graduate of Oberlin College with majors in compter science, math and a concentration in cognitive science. <br></br> Check out my project repos and research publications. Let's keep in touch!
+author_email: "jhsieh2@andrew.cmu.edu"
 author_location:  Oberlin, Ohio
-author_website_url:  "janeon.github.io"
+author_website_url:  "CV"
+author_resume: "Resume"
+
 
 # social links
 twitter_username: yourusername
