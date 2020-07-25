@@ -1,23 +1,24 @@
 title: Jane Hsieh
-subtitle: Undergraduate Researcher at Oberlin College
+subtitle: Researcher, frontend engineer and an aspiring user researcher
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  This is a site about Jane!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "janeon.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 author_logo: profile.png
 author:  janeon
-author_bio: Hi there, thanks for visiting. <br></br> I'm a recent graduate of Oberlin College with majors in compter science, math and a concentration in cognitive science. <br></br> Check out my project repos and research publications. Let's keep in touch!
+author_bio: >
+  I am a first year PhD candidate in Software Engineering with a passion for diversity and inclusivity social coding platforms
+  <br></br> I also have a huge crush on HCI research and UX/UI design
+  <br></br> Check out my projects and research publications above and let's keep in touch!
 author_email: "jhsieh2@andrew.cmu.edu"
-author_location:  Oberlin, Ohio
+author_location:  Pittsburgh, PA
 author_website_url:  "CV"
 author_resume: "Resume"
 
 
 # social links
-twitter_username: yourusername
+twitter_username: JaneHsieh9
 github_username:  janeon
 facebook_username: jwhsieh98
 linkedin_username: jane-hsieh
@@ -27,3 +28,10 @@ medium_username: yourusername
 telegram_username: yourusername
 dribbble_username: yourusername
 flickr_username: yourusername
+
+plugins:
+  - jekyll/scholar
+
+scholar:
+  source: ./bibliography
+  bibliography: sample.bib

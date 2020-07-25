@@ -6,9 +6,13 @@ body {
 header {
     background-color: #F5F5F5;
     box-shadow: 10px 0px 8px;
-    height: 200px;
+    // height: 200px;
     width: 100%;
     padding: 11px;
+}
+
+.header-text {
+  margin-left: 50px
 }
 
 .container-fluid {
@@ -17,9 +21,10 @@ header {
 }
 
 .profile-img {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     margin-left: 20px;
+    margin-top: 20px;
 }
 
 .profile-name {

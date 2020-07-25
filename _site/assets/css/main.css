@@ -1,10 +1,12 @@
 body { background-color: #D6DDE1 !important; font-family: 'Quicksand', sans-serif !important; }
 
-header { background-color: #F5F5F5; box-shadow: 10px 0px 8px; height: 200px; width: 100%; padding: 11px; }
+header { background-color: #F5F5F5; box-shadow: 10px 0px 8px; width: 100%; padding: 11px; }
+
+.header-text { margin-left: 50px; }
 
 .container-fluid { margin: 0px !important; padding: 0px !important; }
 
-.profile-img { width: 150px; height: 150px; margin-left: 20px; }
+.profile-img { width: 100px; height: 100px; margin-left: 20px; margin-top: 20px; }
 
 .profile-name { margin-top: 20px; }
 
