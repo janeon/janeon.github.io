@@ -40,7 +40,7 @@
             </div>
             <div class="col-md-4 header-text">
                 <h3 class="profile-name"> Jane Hsieh</h3>
-                <p class="profile-bio"> Researcher, frontend engineer and an aspiring user researcher</p>
+                <p class="profile-bio"> Researcher, developer & aspiring UX designer</p>
                 <p class="profile-links">
                   <a class="social-link" href="http://github.com/janeon">
                       <i class="fab fa-github"></i>
@@ -102,7 +102,7 @@
                     </span> at
                     <time datetime="2019-08-05 00:00:00 -0500" itemprop="datePublished">Aug 5, 2019</time>
                 </p> -->
-                <span class="disqus-comment-count" data-disqus-identifier="/projects/kubernets/2019/08/05/ibm-multicloud-incident-response-navigator.html"></span>
+                <span class="disqus-comment-count" data-disqus-identifier="/projects/kubernetes/2019/08/05/ibm-multicloud-incident-response-navigator.html"></span>
                 <p>
                 </p>
                 <div class="post-categories">
@@ -110,7 +110,7 @@
                     Category : 
                     <a href="/blog/categories/projects">projects</a>
                     &nbsp; 
-                    <a href="/blog/categories/kubernets">kubernets</a>
+                    <a href="/blog/categories/kubernetes">kubernetes</a>
                      
                 </div>
 
@@ -119,7 +119,27 @@
 
             <div class="card-body" itemprop="articleBody">
                 <!-- <img class="card-img-top" src="/assets/img/posts/anomaly_mode.png" alt="">  -->
-                
+                <p>Initially named Skipper, the Multicloud incidence response navigator is now an open sourced, interactive terminal tool for managing multiple kubernetes clusters, potentially from different cloud providers.</p>
+
+<p>With the goal of helping operators manage multi-cluster applications with Kubernetes, the Skipper team set up to unravel the some of the most frequent and bothersome painpoints via multiple rounds of user interviews with operators and users in various positions.</p>
+
+<p>Based on the interview results, some of the most common painpoints included:</p>
+
+<ol>
+  <li>Forgetting the current context when triaging or looking for a resource (especially namespaces and clusters)</li>
+  <li>Having to navigate multiple dashboards to identify anomalous resources and monitor traffic</li>
+  <li>Not understanding the relationships between resources</li>
+</ol>
+
+<p>Inspired by these findings, we employed an intuitive tree-style navigational structure that displays resources and reveals the hierarchical structures of resources, right in the terminal.</p>
+
+<p>On the left pane, four modes exists  for navigation: cluster, application, anomaly and query modes. These allow the user to investigate the cluster and application infrastructures, quickly locate anomalous resources as well as to filter and search for specific resources.</p>
+
+<p>On the right, we also have 4 types of information to display about resources: a customized summary that including crucial information as well as a usage report provided by Prometheus, the yaml file that was applied to create the resource, logs, as well as a table of recent events.</p>
+
+<ul>
+  <li><a href="https://github.com/IBM/multicloud-incident-response-navigator">Check out Skipper on Github</a></li>
+</ul>
 
             </div>
 
@@ -157,11 +177,11 @@
                 <a name="linting"></a>
 
                  
-                <div id="#kubernets"></div>
+                <div id="#kubernetes"></div>
                 <li class="tag-head">
-                    <a href="/blog/categories/kubernets">kubernets</a>
+                    <a href="/blog/categories/kubernetes">kubernetes</a>
                 </li>
-                <a name="kubernets"></a>
+                <a name="kubernetes"></a>
 
                 
             </div>
@@ -192,8 +212,8 @@
 
     <script>
         var disqus_config = function () {
-            this.page.url = "http://localhost:4000/projects/kubernets/2019/08/05/ibm-multicloud-incident-response-navigator.html"; // Replace PAGE_URL with your page's canonical URL variable
-            this.page.identifier = "/projects/kubernets/2019/08/05/ibm-multicloud-incident-response-navigator"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+            this.page.url = "http://localhost:4000/projects/kubernetes/2019/08/05/ibm-multicloud-incident-response-navigator.html"; // Replace PAGE_URL with your page's canonical URL variable
+            this.page.identifier = "/projects/kubernetes/2019/08/05/ibm-multicloud-incident-response-navigator"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
         };
 
 

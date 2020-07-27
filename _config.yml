@@ -1,5 +1,5 @@
 title: Jane Hsieh
-subtitle: Researcher, frontend engineer and an aspiring user researcher
+subtitle: Researcher, developer & aspiring UX designer
 description: >- # this means to ignore newlines until "baseurl:"
   This is a site about Jane!
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -8,10 +8,11 @@ url: "janeon.github.io" # the base hostname & protocol for your site, e.g. http:
 author_logo: profile.png
 author:  janeon
 author_bio: >
-  I am a first year PhD candidate in Software Engineering with a passion for diversity and inclusivity social coding platforms
-  <br></br> I also have a huge crush on HCI research and UX/UI design
+  I am a first year PhD candidate in Software Engineering with
+  <br></br> &emsp;- a passion for diversity and inclusivity on social coding platforms
+  <br></br> &emsp;- and a huge crush on HCI research and UX/UI design
   <br></br> Check out my projects and research publications above and let's keep in touch!
-author_email: "jhsieh2@andrew.cmu.edu"
+author_email: "jhsieh2 andrew cmu edu"
 author_location:  Pittsburgh, PA
 author_website_url:  "CV"
 author_resume: "Resume"
