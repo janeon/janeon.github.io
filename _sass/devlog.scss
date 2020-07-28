@@ -76,6 +76,7 @@ footer {
 .company-logo {
     width: 100px;
     height: 100px;
+    margin-left: 1em
 }
 
 .project-img {
@@ -136,4 +137,24 @@ code {
         height: auto;
         margin-left: -20px !important;
     }
+}
+
+.vertical-center {
+  align-items:center;
+  text-align: center;
+}
+
+
+.terminal-img {
+  width: 100%;
+  display: inline;
+  float: left;
+  padding: 1em;
+}
+
+.taskat-screenshots {
+  width:100%;
+  display: flex;
+  float: left;
+  padding: 1em;
 }

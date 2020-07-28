@@ -26,7 +26,7 @@ header { background-color: #F5F5F5; box-shadow: 10px 0px 8px; width: 100%; paddi
 
 footer { width: 100%; height: 70px; text-align: center; padding: 20px; background-color: #F5F5F5; }
 
-.company-logo { width: 100px; height: 100px; }
+.company-logo { width: 100px; height: 100px; margin-left: 1em; }
 
 .project-img { width: 300px; height: 200px; }
 
@@ -46,3 +46,8 @@ pre, code { overflow: auto; white-space: pre-wrap; word-wrap: break-word; word-b
 
 @media (min-width: 320px) and (max-width: 780px) { header { height: auto; text-align: center; }
   .blog-post { width: 300px; height: auto; margin-left: -20px !important; } }
+.vertical-center { align-items: center; text-align: center; }
+
+.terminal-img { width: 100%; display: inline; float: left; padding: 1em; }
+
+.taskat-screenshots { width: 100%; display: flex; float: left; padding: 1em; }

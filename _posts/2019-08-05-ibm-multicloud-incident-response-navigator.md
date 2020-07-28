@@ -5,8 +5,8 @@ author: Jane Hsieh
 categories:
   - projects
   - kubernetes
-summary: Terminal application designed for operators
-thumbnail: posts/anomaly_mode.png
+summary: Terminal application designed for Kubernetes operators
+thumbnail: posts/cluster_mode_screenshot.png
 ---
 
 
@@ -25,9 +25,46 @@ Inspired by these findings, we employed an intuitive tree-style navigational str
 On the left pane, four modes exists  for navigation: cluster, application, anomaly and query modes. These allow the user to investigate the cluster and application infrastructures, quickly locate anomalous resources as well as to filter and search for specific resources.
 
 
+<div class="container">
+  <div class="row vertical-center">
+    <div class="col-sm-2">
+      <h6>[1] Cluster mode</h6>
+    </div>
+    <div class="col-sm-10">
+      <img src="/assets/img/posts/cluster_mode_screenshot.png" class="terminal-img">
+    </div>
+  </div>
+
+  <div class="row vertical-center">
+    <div class="col-sm-2">
+      <h6>[2] App mode</h6>
+    </div>
+    <div class="col-sm-10">
+      <img src="/assets/img/posts/app_mode_screenshot.png" class="terminal-img">
+    </div>
+  </div>
+
+  <div class="row vertical-center">
+    <div class="col-sm-2">
+      <h6>[3] Anomaly mode</h6>
+    </div>
+    <div class="col-sm-10">
+      <img src="/assets/img/posts/anomaly_mode_screenshot.png" class="terminal-img">
+    </div>
+  </div>
+
+  <div class="row vertical-center">
+    <div class="col-sm-2">
+      <h6>[4] Query mode</h6>
+    </div>
+    <div class="col-sm-10">
+      <img src="/assets/img/posts/query_mode_screenshot.png" class="terminal-img">
+    </div>
+  </div>
+</div>
 
 On the right, we also have 4 types of information to display about resources: a customized summary that including crucial information as well as a usage report provided by Prometheus, the yaml file that was applied to create the resource, logs, as well as a table of recent events.
 
 
 
-- [Check out Skipper on Github](https://github.com/IBM/multicloud-incident-response-navigator)
+[Check out Skipper on Github](https://github.com/IBM/multicloud-incident-response-navigator)
