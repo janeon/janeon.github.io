@@ -15,6 +15,16 @@ header {
   margin-left: 50px
 }
 
+a {
+    color: black !important;
+    text-decoration: underline rgba(213, 170, 0, 0.783)  !important;
+  }
+
+a:hover {
+    color: rgba(213, 170, 0, 0.783) !important;
+    background: lemonchiffon;
+}
+
 .container-fluid {
     margin: 0px !important;
     padding: 0px !important;
@@ -75,8 +85,8 @@ footer {
 
 .company-logo {
     width: 100px;
-    height: 100px;
-    margin-left: 1em
+    margin-left: 1em;
+    display: block;
 }
 
 .project-img {
