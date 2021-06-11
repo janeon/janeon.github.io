@@ -9,7 +9,7 @@ bundle exec jekyll serve --watch
 
 ### TODOS:
 
-- [] Check mobile compatibility
-- [] Generate html for publications (step 0, go publish a paper)
-- [] Fix header linking style
-- [] Link to Social AI lab website when it's up!
+- [ ] Check mobile compatibility
+- [ ] Generate html for publications (step 0, go publish a paper)
+- [ ] Fix header linking style
+- [ ] Link to Social AI lab website when it's up!
