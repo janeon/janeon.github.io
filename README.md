@@ -7,3 +7,9 @@ bundle exec jekyll serve --watch
 ```
 2. Visit [http://localhost:4000](http://localhost:4000)
 
+### TODOS:
+
+- [] Check mobile compatibility
+- [] Generate html for publications (step 0, go publish a paper)
+- [] Fix header linking style
+- [] Link to Social AI lab website when it's up!
