@@ -1,5 +1,5 @@
 title: Jane Hsieh
-subtitle: Research assistant at <a href="https://www.cmu.edu/">Carnegie Mellon University</a>
+subtitle: <a href="https://se-phd.isri.cmu.edu/People/students/student-bios/hsieh-jane.html">Student </a>, <a href="https://janeon.github.io/research.html">Researcher </a>, <a href="https://www.upwork.com/">Consultant </a>
 description: >- # this means to ignore newlines until "baseurl:"
   This is a site about Jane!
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -7,12 +7,18 @@ url: "janeon.github.io" # the base hostname & protocol for your site, e.g. http:
 
 author_logo: profile.png
 author:  janeon
-author_bio: >
-  I am a second year <a href="http://se-phd.isri.cmu.edu/People/students/index.html">Software Engineering PhD candidate</a> at the <a href="https://www.isri.cmu.edu/">Institute of Software Research</a> 
+author_bio: 
+  I am a second year <a href="http://se-phd.isri.cmu.edu/People/students/index.html">Software Engineering doctoral candidate</a> at the <a href="https://www.isri.cmu.edu/">Institute of Software Research</a> 
   advised by <a href="https://haiyizhu.com/">Professor Haiyi Zhu</a> from the 
   <a href="https://hcii.cmu.edu/"> Human Computer Interaction Institute </a>. 
-  I work in the area of sociotechnical research and my current projects focus on (1) identifying gig worker communication strategies (2) toxicity moderation and bot usage by open source maintainers and (3) identifying and improving early gig worker dropoff.
-  If you're interested in similar research, check out the <a href="https://www.hcii.cmu.edu/research/social-computing-lab">Social Computing Lab</a> or reach out to me with questions via the contact info on the right. Let's keep in touch!
+  <br></br>
+  My research interests lies within sociotechnical research, focusing particularly on human optimization using empirical and design methods. 
+  If you're interested in similar research, check out the <a href="https://www.hcii.cmu.edu/research/social-computing-lab">Social Computing Lab</a> or reach out with contact info on the right. 
+  <br></br>
+  In 2020, I graduated <a href="https://www.oberlin.edu/">Oberlin College</a> with a BA in <a href="https://www.cs.oberlin.edu/">CS</a> 
+  and <a href="https://www.oberlin.edu/arts-and-sciences/departments/mathematics">Math</a> (along with a <a href="https://www.oberlin.edu/cognitive-sciences"></a>Cognitive Science concentration), 
+  where I was advised academically by <a href="https://www.cs.oberlin.edu/~bob/">Bob Geitz</a> and <a href="http://www.dominoartwork.com/">Bob Bosch</a>, 
+  and research-wise by <a href="https://cs.oberlin.edu/~ctaylor/">Cynthia Tayler</a> and <a href="https://www.oberlin.edu/yumi-ijiri">Yumi Ijiri</a>. 
 author_email: "janeon@cmu.edu"
 author_location:  Pittsburgh, PA
 author_website_url:  "CV"
@@ -24,8 +30,9 @@ twitter_username: JaneHsieh9
 github_username:  janeon
 facebook_username: jwhsieh98
 linkedin_username: jane-hsieh
-behance_username: yourusername
+stackoverflow_username: 9915597/janeon
 instagram_username: janeon32
+behance_username: yourusername
 medium_username: yourusername
 telegram_username: yourusername
 dribbble_username: yourusername
