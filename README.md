@@ -1,4 +1,4 @@
-# Personal Website!
+# Jane's Personal Website
 
 ### To run and update locally:
 1. Server locally with
@@ -10,6 +10,6 @@ bundle exec jekyll serve --watch
 ### TODOS:
 
 - [ ] Check mobile compatibility
-- [ ] Generate html for publications (step 0, go publish a paper)
+- [ ] Generate html for publications 
 - [ ] Fix header linking style
 - [ ] Link to Social AI lab website when it's up!
