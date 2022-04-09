@@ -55,3 +55,7 @@ pre, code { overflow: auto; white-space: pre-wrap; word-wrap: break-word; word-b
 .terminal-img { width: 100%; display: inline; float: left; padding: 1em; }
 
 .taskat-screenshots { width: 100%; display: flex; float: left; padding: 1em; }
+
+.coding { width: 45%; margin: 0em 2em; }
+
+.activity { display: flex; }

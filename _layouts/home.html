@@ -7,11 +7,16 @@ layout: default
 
         <div class="card">
             <h3 class="card-title">Hello, thanks for visiting!</h3>
-
             <p> {{ site.author_bio }} </p>
         </div>
 
         <div class="card">
+            <h3 class="card-title">Coding Activity</h3>
+            {%- include activity.html -%}
+        </div>
+
+
+        <!-- <div class="card">
             <h1 class="card-title"> Experiences</h1>
             <br />
 
@@ -74,9 +79,9 @@ layout: default
             </div>
 
 
-        </div>
+        </div> -->
 
-        <div class="card">
+        <!-- <div class="card">
             <h1 class="card-title"> Awards</h1>
 
             <br />
@@ -94,9 +99,9 @@ layout: default
 
             <br />
 
-        </div>
+        </div> -->
 
-        <div class="card">
+        <!-- <div class="card">
             <h1 class="card-title">Competitions</h1>
             <div class="row">
                 <div class="col-md-5">
@@ -131,7 +136,7 @@ layout: default
                 </div>
             </div>
 
-        </div>
+        </div> -->
 
     </div>
     <div class="col-lg-4">
@@ -157,14 +162,8 @@ layout: default
             <p> Reading, baking/cooking, puzzles, building furniture and playing the violin</p>
         </div>
 
-
         <div class="card">
-            <h3> Coding Activity </h3>
-            {%- include activity.html -%}
-        </div>
-
-        <div class="card">
-            <div class="card-header">Categories </div>
+            <div class="card-header">Article Categories </div>
             <div class="card-body text-dark">
                 {% for tag in site.categories %} {% capture tag_name %}{{ tag | first }}{% endcapture %}
                 <div id="#{{ tag_name | slugize }}"></div>
@@ -177,12 +176,8 @@ layout: default
         </div>
 
         <div class="card">
-          <div class="cleanslate w24tz-current-time w24tz-middle" style="display: inline-block !important; visibility: hidden !important; min-width:300px !important; min-height:145px !important;">
-              <a href="//24timezones.com/world_directory/time_in_dallas.php" style="text-decoration: none" class="clock24" id="tz24-1567178880-c170-eyJob3VydHlwZSI6MTIsInNob3dkYXRlIjoiMSIsInNob3dzZWNvbmRzIjoiMSIsImNvbnRhaW5lcl9pZCI6ImNsb2NrX2Jsb2NrX2NiNWQ2OTQwODBhZDMxOSIsInR5cGUiOiJkYiIsImxhbmciOiJlbiJ9" title="Dallas - Clock" target="_blank" rel="nofollow">
-              </a>
-            <div id="clock_block_cb5d694080ad319"></div>
-          </div>
-          <script type="text/javascript" src="//w.24timezones.com/l.js" async></script>
+            <div class="cleanslate w24tz-current-time w24tz-middle" style="display: inline-block !important; visibility: hidden !important; min-width:300px !important; min-height:145px !important;"><p><a href="//24timezones.com/Pittsburgh/time" style="text-decoration: none" class="clock24" id="tz24-1649461151-c1418-eyJob3VydHlwZSI6MTIsInNob3dkYXRlIjoiMSIsInNob3dzZWNvbmRzIjoiMSIsImNvbnRhaW5lcl9pZCI6ImNsb2NrX2Jsb2NrX2NiNjI1MGM3OWZiMTIwNiIsInR5cGUiOiJkYiIsImxhbmciOiJlbiJ9" title="Clock - Pittsburgh" target="_blank">Current time in Pittsburgh</a></p><div id="clock_block_cb6250c79fb1206"></div></div>
+            <script type="text/javascript" src="//w.24timezones.com/l.js" async></script>
         </div>
 
     </div>

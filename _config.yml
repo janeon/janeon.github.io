@@ -1,5 +1,5 @@
 title: Jane Hsieh
-subtitle: <a href="https://se-phd.isri.cmu.edu/People/students/student-bios/hsieh-jane.html">Student </a>, <a href="https://janeon.github.io/research.html">Researcher </a>, <a href="https://www.upwork.com/">Consultant </a>
+subtitle: 
 description: >- # this means to ignore newlines until "baseurl:"
   This is a site about Jane!
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -12,11 +12,13 @@ author_bio:
   advised by <a href="https://haiyizhu.com/">Professor Haiyi Zhu</a> from the 
   <a href="https://hcii.cmu.edu/"> Human Computer Interaction Institute </a>. 
   <br></br>
-  My research interests lies within sociotechnical research, focusing particularly on human optimization using empirical and design methods. 
+  My research interests lies within sociotechnical research, 
+  focusing particularly on human optimization using empirical and design methods, 
+  and my work is generously supported by the <a href="https://www.nsfgrfp.org/"> NSF Graduate Research Fellowship Program</a>. 
   If you're interested in similar research, check out the <a href="https://www.hcii.cmu.edu/research/social-computing-lab">Social Computing Lab</a> or reach out with contact info on the right. 
   <br></br>
   In 2020, I graduated <a href="https://www.oberlin.edu/">Oberlin College</a> with a BA in <a href="https://www.cs.oberlin.edu/">CS</a> 
-  and <a href="https://www.oberlin.edu/arts-and-sciences/departments/mathematics">Math</a> (along with a <a href="https://www.oberlin.edu/cognitive-sciences"></a>Cognitive Science concentration), 
+  and <a href="https://www.oberlin.edu/arts-and-sciences/departments/mathematics">Math</a> (along with a <a href="https://www.oberlin.edu/cognitive-sciences">Cognitive Science concentration</a>), 
   where I was advised academically by <a href="https://www.cs.oberlin.edu/~bob/">Bob Geitz</a> and <a href="http://www.dominoartwork.com/">Bob Bosch</a>, 
   and research-wise by <a href="https://cs.oberlin.edu/~ctaylor/">Cynthia Tayler</a> and <a href="https://www.oberlin.edu/yumi-ijiri">Yumi Ijiri</a>. 
 author_email: "janeon@cmu.edu"
@@ -30,7 +32,7 @@ twitter_username: JaneHsieh9
 github_username:  janeon
 facebook_username: jwhsieh98
 linkedin_username: jane-hsieh
-stackoverflow_username: 9915597/janeon
+stackoverflow_username: users/9915597/janeon
 instagram_username: janeon32
 behance_username: yourusername
 medium_username: yourusername
