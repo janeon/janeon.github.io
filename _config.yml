@@ -13,8 +13,7 @@ author_bio:
   <a href="https://hcii.cmu.edu/"> Human Computer Interaction Institute </a>. 
   <br></br>
   My research interests lies within sociotechnical research, 
-  focusing particularly on human optimization using empirical and design methods, 
-  and my work is generously supported by the <a href="https://www.nsfgrfp.org/"> NSF Graduate Research Fellowship Program</a>. 
+  focusing particularly on human optimization using empirical and design methods.
   If you're interested in similar research, check out the <a href="https://www.hcii.cmu.edu/research/social-computing-lab">Social Computing Lab</a> or reach out with contact info on the right. 
   <br></br>
   In 2020, I graduated <a href="https://www.oberlin.edu/">Oberlin College</a> with a BA in <a href="https://www.cs.oberlin.edu/">CS</a> 
@@ -25,7 +24,7 @@ author_email: "janeon@cmu.edu"
 author_location:  Pittsburgh, PA
 author_website_url:  "CV"
 author_resume: "Resume"
-
+# and my work is generously supported by the <a href="https://www.nsfgrfp.org/"> NSF Graduate Research Fellowship Program</a>. 
 
 # social links
 twitter_username: JaneHsieh9
