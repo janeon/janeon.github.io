@@ -31,10 +31,11 @@ a:hover {
 }
 
 .profile-img {
-    width: 100px;
-    height: 100px;
+    width: 115px;
+    height: 115px;
     margin-left: 20px;
-    margin-top: 20px;
+    // margin-top: 20px;
+    border-radius: 50%;
 }
 
 .profile-name {
