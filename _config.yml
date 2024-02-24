@@ -5,16 +5,15 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "janeon.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
-author_logo: profile.png
+author_logo: photoshoot.jpeg
 author:  janeon
 author_bio: 
   I am a fourth year 
   <a href="https://se-phd.s3d.cmu.edu/People/students/index.html">Software Engineering doctoral student</a> 
   at <a href="https://s3d.cmu.edu/">CMU S3D</a> advised by <a href="https://haiyizhu.com/">Professor Haiyi Zhu</a> from the 
-  <a href="https://hcii.cmu.edu/"> Human Computer Interaction Institute </a>. 
-  <br></br>
-  My research interests lies within sociotechnical research, 
-  focusing particularly on improving gig work conditions using empirical and design methods.
+  <a href="https://hcii.cmu.edu/"> Human Computer Interaction Institute </a>, where I research ways alleviating negative impacts of algorithmically managed work.
+  To tackle the complex issues of gig work, I leverage design and empirical methods engage to with multiple stakeholder groups, 
+  so as to develop policy and technology innovations that engender more equitable, empowered, and sustainable futures for platform-based laborers.
   <br></br>
   Beyond research, I serve as a TA for <a href="https://sites.google.com/andrew.cmu.edu/haii-cmu/">Human-AI Interaction</a> course last fall
   and am generously funded by the <a href="https://www.nsfgrfp.org/"> NSF Graduate Research Fellowship </a> in 2021.
@@ -27,6 +26,12 @@ author_email: "janeon@cmu.edu"
 author_location:  Pittsburgh, PA
 author_website_url:  "CV"
 # and my work is generously supported by the <a href="https://www.nsfgrfp.org/"> NSF Graduate Research Fellowship Program</a>. 
+
+
+
+
+
+
 
 # social links
 twitter_username: JaneHsieh9
