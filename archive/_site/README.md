@@ -1,7 +1,7 @@
 # Jane's Personal Website
 
 ### To run and update locally:
-1. Server locally with
+1. Serve locally with
 ```
 bundle exec jekyll serve --watch
 ```
