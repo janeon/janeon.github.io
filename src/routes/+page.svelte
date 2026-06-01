@@ -61,10 +61,10 @@
 					I am a recent Software Engineering PhD graduate from
 					<a href="https://se-phd.s3d.cmu.edu/" class="text-blue-500 hover:underline">CMU S3D</a>
 					advised by
-					Prof. <a href="https://www.haiyizhu.com/" class="text-blue-500 hover:underline">Haiyi Zhu</a> as a part of the <a href="https://www.social-ai.org/" class="text-blue-500 hover:underline">Social AI Lab</a>. Currently, I research at the
+					Prof. <a href="https://www.haiyizhu.com/" class="text-blue-500 hover:underline">Haiyi Zhu</a> as a part of the <a href="https://www.social-ai.org/" class="text-blue-500 hover:underline">Social AI Lab</a>. Most recently, I researched at the
 					<a href="https://hci.cs.cmu.edu/" class="text-blue-500 hover:underline"
 						>Human Computer Interaction Institute</a
-					>.
+					> with Haiyi & Jodi Forlizzi.
 				</p>
 				<p class="font-titillium mt-4 leading-relaxed text-gray-700 dark:text-gray-400">
 					My research focuses on understanding and reshaping how disruptive technologies such as gig platforms interact with and impact worker and user communities, so as to design and promote more <b>collective</b>, <b>safe</b> and <b>prosperous futures of work</b>.
@@ -136,7 +136,7 @@
 						Volunteering for causes like <a href="https://www.reimaginedrecycling.com/" class="text-blue-500 hover:underline">recycling ♻️</a>
 					</li>
 					<li>Playing puzzles 🧩 and <a href="https://steamcommunity.com/profiles/76561198986320571/" class="text-blue-500 hover:underline">games</a> 🎮 recreationally</li>
-					<li>Woodworking 🪵, 3D-printing or occasionally revisiting the violin 🎻</li>
+					<li>Woodworking 🪵, 3D-printing or occasionally revisiting the violin 🎻 (<a href="https://www.durwynne.com/" class="text-blue-500 hover:underline">my brother</a> is more productive musically!)</li>
 				</ul>
 			</Card>
 
